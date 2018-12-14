@@ -9437,7 +9437,7 @@ def solve():
             c79['9'] = False   
             c89['9'] = False
             c99['9'] = False
-
+    print(solvednums)
     return
 solveBtn.configure(command = solve)
 window.mainloop()
