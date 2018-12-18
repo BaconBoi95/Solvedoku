@@ -1,3 +1,21 @@
+#SolveDoku - Sudoku made easy
+#Copyright (C) 2018  Matt Patterson
+#
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+#If you have questions please send an email to leeland230.fun@gmail.com
+#or post an issue at  
 #from Sudoku import *
 from tkinter import *
 from time import *
@@ -2084,7 +2102,6 @@ def solve():
             c73['9'] = False   
             c83['9'] = False
             c93['9'] = False
-    return
     if puzzlenums[0][3] > 0 and e14do == True:
         solvednums[0][3] = puzzlenums[0][3]
         e14do = False
@@ -5208,7 +5225,7 @@ def solve():
     elif e29do == True and c29['1'] == False and c29['2'] == True and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
         e29do == False
         solvednums[1][8] = 2
-    elif e29do == True and c29['1'] == False and !9['2'] == False and c29['3'] == True and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
+    elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == True and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
         e29do == False
         solvednums[1][8] = 3
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == True and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
@@ -7431,7 +7448,7 @@ def solve():
         solvednums[3][0] = puzzlenums[3][0]
         e41do = False
         sleep(1)
-    elif e41do == True and c41['1'] == True and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and 431['9'] == False:
+    elif e41do == True and c41['1'] == True and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c31['9'] == False:
         e41do == False
         solvednums[3][0] = 1
     elif e41do == True and c41['1'] == False and c41['2'] == True and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c41['9'] == False:
@@ -8557,7 +8574,7 @@ def solve():
         solvednums[3][5] = puzzlenums[3][5]
         e46do = False
         sleep(1)
-    elif e46do == True and c46['1'] = True and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
+    elif e46do == True and c46['1'] == True and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
         e46do == False
         solvednums[3][5] = 1
     elif e46do == True and c46['1'] == False and c46['2'] == True and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
