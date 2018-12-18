@@ -1418,7 +1418,6 @@ e99do = True
 solvednums = [[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
 def solve():
     """Solve Dat Puzzle"""
-    flag = True
     e11do = True
     sleep(1)
     if puzzlenums[0][0] > 0 and e11do == True:
@@ -4109,7 +4108,6 @@ def solve():
             c73['9'] = False   
             c83['9'] = False
             c93['9'] = False
-    return
     if puzzlenums[1][3] > 0 and e24do == True:
         solvednums[1][3] = puzzlenums[1][3]
         e24do = False
@@ -6117,7 +6115,6 @@ def solve():
             c73['9'] = False   
             c83['9'] = False
             c93['9'] = False
-    return
     if puzzlenums[2][3] > 0 and e34do == True:
         solvednums[2][3] = puzzlenums[2][3]
         e34do = False
@@ -8127,7 +8124,6 @@ def solve():
             c73['9'] = False   
             c83['9'] = False
             c93['9'] = False
-    return
     if puzzlenums[3][3] > 0 and e44do == True:
         solvednums[3][3] = puzzlenums[3][3]
         e44do = False
@@ -9445,6 +9441,2015 @@ def solve():
             c57['9'] = False
             c58['9'] = False
             c59['9'] = False
+            c67['9'] = False
+            c68['9'] = False
+            c69['9'] = False
+            c19['9'] = False
+            c29['9'] = False
+            c39['9'] = False
+            c79['9'] = False   
+            c89['9'] = False
+            c99['9'] = False
+    if puzzlenums[4][0] > 0 and e51do == True:
+        solvednums[4][0] = puzzlenums[4][0]
+        e51do = False
+        sleep(1)
+    elif e51do == True and c51['1'] == True and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 1
+    elif e51do == True and c51['1'] == False and c51['2'] == True and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 2
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == True and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 3
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == True and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 4
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == True and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 5
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == True and c51['7'] == False and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 6
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == True and c51['8'] == False and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 7
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == True and c51['9'] == False:
+        e51do == False
+        solvednums[4][0] = 8
+    elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == True:
+        e51do == False
+        solvednums[4][0] = 9
+    else:
+        if solvednums[4][0] == 1:
+            c51['1'] = False
+            c51['2'] = False
+            c51['3'] = False
+            c51['4'] = False
+            c51['5'] = False
+            c51['6'] = False
+            c51['7'] = False
+            c51['8'] = False
+            c51['9'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c54['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c41['1'] = False
+            c42['1'] = False
+            c43['1'] = False
+            c61['1'] = False
+            c62['1'] = False
+            c63['1'] = False
+            c11['1'] = False
+            c21['1'] = False
+            c31['1'] = False
+            c41['1'] = False
+            c61['1'] = False
+            c71['1'] = False
+            c81['1'] = False
+            c91['1'] = False
+        elif solvednums[4][0] == 2:
+            c51['1'] = False
+            c51['2'] = False
+            c51['3'] = False
+            c51['4'] = False
+            c51['5'] = False
+            c51['6'] = False
+            c51['7'] = False
+            c51['8'] = False
+            c51['9'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c54['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c41['2'] = False
+            c42['2'] = False
+            c43['2'] = False
+            c61['2'] = False
+            c62['2'] = False
+            c63['2'] = False
+            c11['2'] = False
+            c21['2'] = False
+            c31['2'] = False
+            c71['2'] = False
+            c81['2'] = False
+            c91['2'] = False
+        elif solvednums[4][0] == 3:
+            c52['3'] = False
+            c53['3'] = False
+            c54['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c41['3'] = False
+            c42['3'] = False
+            c43['3'] = False
+            c61['3'] = False
+            c62['3'] = False
+            c63['3'] = False
+            c11['3'] = False
+            c21['3'] = False
+            c31['3'] = False
+            c71['3'] = False
+            c81['3'] = False
+            c91['3'] = False
+        elif solvednums[4][0] == 4:
+            c52['4'] = False
+            c53['4'] = False
+            c54['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c41['4'] = False
+            c42['4'] = False
+            c43['4'] = False
+            c61['4'] = False
+            c62['4'] = False
+            c63['4'] = False
+            c11['4'] = False
+            c21['4'] = False
+            c31['4'] = False
+            c71['4'] = False
+            c81['4'] = False
+            c91['4'] = False
+        elif solvednums[3][0] == 5:
+            c52['5'] = False
+            c53['5'] = False
+            c54['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c41['5'] = False
+            c42['5'] = False
+            c43['5'] = False
+            c61['5'] = False
+            c62['5'] = False
+            c63['5'] = False
+            c11['5'] = False
+            c21['5'] = False
+            c31['5'] = False
+            c71['5'] = False
+            c81['5'] = False
+            c91['5'] = False
+        elif solvednums[4][0] == 6:
+            c52['6'] = False
+            c53['6'] = False
+            c54['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c41['6'] = False
+            c42['6'] = False
+            c43['6'] = False
+            c61['6'] = False
+            c62['6'] = False
+            c63['6'] = False
+            c11['6'] = False
+            c21['6'] = False
+            c31['6'] = False
+            c71['6'] = False
+            c81['6'] = False
+            c91['6'] = False
+        elif solvednums[4][0] == 7:
+            c52['7'] = False
+            c53['7'] = False
+            c54['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c41['7'] = False
+            c42['7'] = False
+            c43['7'] = False
+            c61['7'] = False
+            c62['7'] = False
+            c63['7'] = False
+            c11['7'] = False
+            c21['7'] = False
+            c31['7'] = False
+            c71['7'] = False
+            c81['7'] = False
+            c91['7'] = False
+        elif solvednums[4][0] == 8:
+            c52['8'] = False
+            c53['8'] = False
+            c54['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c41['8'] = False
+            c42['8'] = False
+            c43['8'] = False
+            c41['8'] = False
+            c62['8'] = False
+            c63['8'] = False
+            c11['8'] = False
+            c21['8'] = False
+            c31['8'] = False
+            c71['8'] = False
+            c81['8'] = False
+            c91['8'] = False
+        elif solvednums[4][0] == 9:
+            c52['9'] = False
+            c53['9'] = False
+            c54['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c41['9'] = False
+            c42['9'] = False
+            c43['9'] = False
+            c61['9'] = False
+            c62['9'] = False
+            c63['9'] = False
+            c11['9'] = False
+            c21['9'] = False
+            c31['9'] = False
+            c71['9'] = False   
+            c81['9'] = False
+            c91['9'] = False
+    if puzzlenums[4][1] > 0 and e52do == True:
+        solvednums[4][1] = puzzlenums[4][1]
+        e52do = False
+        sleep(1)
+    elif e52do == True and c52['1'] == True and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 1
+    elif e52do == True and c52['1'] == False and c52['2'] == True and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 2
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == True and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 3
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == True and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 4
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == True and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 5
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == True and c52['7'] == False and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 6
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == True and c52['8'] == False and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 7
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == True and c52['9'] == False:
+        e52do == False
+        solvednums[4][1] = 8
+    elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == True:
+        e52do == False
+        solvednums[4][1] = 9
+    else:
+        if solvednums[4][1] == 1:
+            c51['1'] = False
+            c53['1'] = False
+            c54['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c41['1'] = False
+            c42['1'] = False
+            c43['1'] = False
+            c61['1'] = False
+            c62['1'] = False
+            c63['1'] = False
+            c12['1'] = False
+            c22['1'] = False
+            c32['1'] = False
+            c72['1'] = False
+            c82['1'] = False
+            c92['1'] = False
+        elif solvednums[4][1] == 2:
+            c51['2'] = False
+            c53['2'] = False
+            c54['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c41['2'] = False
+            c42['2'] = False
+            c43['2'] = False
+            c61['2'] = False
+            c62['2'] = False
+            c63['2'] = False
+            c12['2'] = False
+            c22['2'] = False
+            c32['2'] = False
+            c72['2'] = False
+            c82['2'] = False
+            c92['2'] = False
+        elif solvednums[4][1] == 3:
+            c51['3'] = False
+            c53['3'] = False
+            c54['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c41['3'] = False
+            c42['3'] = False
+            c43['3'] = False
+            c61['3'] = False
+            c62['3'] = False
+            c63['3'] = False
+            c12['3'] = False
+            c22['3'] = False
+            c32['3'] = False
+            c72['3'] = False
+            c82['3'] = False
+            c92['3'] = False
+        elif solvednums[4][1] == 4:
+            c51['4'] = False
+            c53['4'] = False
+            c54['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c41['4'] = False
+            c42['4'] = False
+            c43['4'] = False
+            c61['4'] = False
+            c62['4'] = False
+            c63['4'] = False
+            c12['4'] = False
+            c22['4'] = False
+            c32['4'] = False
+            c72['4'] = False
+            c82['4'] = False
+            c92['4'] = False
+        elif solvednums[4][1] == 5:
+            c51['5'] = False
+            c53['5'] = False
+            c54['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c41['5'] = False
+            c42['5'] = False
+            c43['5'] = False
+            c61['5'] = False
+            c62['5'] = False
+            c63['5'] = False
+            c12['5'] = False
+            c22['5'] = False
+            c32['5'] = False
+            c72['5'] = False
+            c82['5'] = False
+            c92['5'] = False
+        elif solvednums[4][1] == 6:
+            c51['6'] = False
+            c53['6'] = False
+            c54['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c41['6'] = False
+            c42['6'] = False
+            c43['6'] = False
+            c61['6'] = False
+            c62['6'] = False
+            c63['6'] = False
+            c12['6'] = False
+            c22['6'] = False
+            c32['6'] = False
+            c72['6'] = False
+            c82['6'] = False
+            c92['6'] = False
+        elif solvednums[4][1] == 7:
+            c51['7'] = False
+            c53['7'] = False
+            c54['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c41['7'] = False
+            c42['7'] = False
+            c43['7'] = False
+            c61['7'] = False
+            c62['7'] = False
+            c63['7'] = False
+            c12['7'] = False
+            c22['7'] = False
+            c32['7'] = False
+            c72['7'] = False
+            c82['7'] = False
+            c92['7'] = False
+        elif solvednums[4][1] == 8:
+            c51['8'] = False
+            c53['8'] = False
+            c54['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c41['8'] = False
+            c42['8'] = False
+            c43['8'] = False
+            c68['8'] = False
+            c62['8'] = False
+            c63['8'] = False
+            c12['8'] = False
+            c22['8'] = False
+            c32['8'] = False
+            c72['8'] = False
+            c82['8'] = False
+            c92['8'] = False
+        elif solvednums[4][1] == 9:
+            c51['9'] = False
+            c53['9'] = False
+            c54['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c41['9'] = False
+            c42['9'] = False
+            c43['9'] = False
+            c61['9'] = False
+            c62['9'] = False
+            c63['9'] = False
+            c12['9'] = False
+            c22['9'] = False
+            c32['9'] = False
+            c72['9'] = False   
+            c82['9'] = False
+            c92['9'] = False
+    if puzzlenums[4][2] > 0 and e53do == True:
+        solvednums[4][2] = puzzlenums[4][2]
+        e53do = False
+        sleep(1)
+    elif e53do == True and c53['1'] == True and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 1
+    elif e53do == True and c53['1'] == False and c53['2'] == True and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 2
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == True and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 3
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == True and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 4
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == True and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 5
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == True and c53['7'] == False and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 6
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == True and c53['8'] == False and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 7
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == True and c53['9'] == False:
+        e53do == False
+        solvednums[4][2] = 8
+    elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == True:
+        e53do == False
+        solvednums[4][2] = 9
+    else:
+        if solvednums[4][2] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c54['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c41['1'] = False
+            c42['1'] = False
+            c43['1'] = False
+            c61['1'] = False
+            c62['1'] = False
+            c63['1'] = False
+            c13['1'] = False
+            c23['1'] = False
+            c33['1'] = False
+            c73['1'] = False
+            c83['1'] = False
+            c93['1'] = False
+        elif solvednums[4][2] == 2:
+            c51['2'] = False
+            c52['2'] = False
+            c54['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c41['2'] = False
+            c42['2'] = False
+            c43['2'] = False
+            c61['2'] = False
+            c62['2'] = False
+            c63['2'] = False
+            c43['2'] = False
+            c13['2'] = False
+            c23['2'] = False
+            c33['2'] = False
+            c83['2'] = False
+            c93['2'] = False
+        elif solvednums[4][2] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c54['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c41['3'] = False
+            c42['3'] = False
+            c43['3'] = False
+            c61['3'] = False
+            c62['3'] = False
+            c63['3'] = False
+            c13['3'] = False
+            c23['3'] = False
+            c33['3'] = False
+            c73['3'] = False
+            c83['3'] = False
+            c93['3'] = False
+        elif solvednums[4][2] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c54['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c41['4'] = False
+            c42['4'] = False
+            c43['4'] = False
+            c61['4'] = False
+            c64['4'] = False
+            c63['4'] = False
+            c13['4'] = False
+            c23['4'] = False
+            c33['4'] = False
+            c73['4'] = False
+            c83['4'] = False
+            c93['4'] = False
+        elif solvednums[4][2] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c54['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c41['5'] = False
+            c42['5'] = False
+            c43['5'] = False
+            c61['5'] = False
+            c62['5'] = False
+            c63['5'] = False
+            c13['5'] = False
+            c23['5'] = False
+            c33['5'] = False
+            c73['5'] = False
+            c83['5'] = False
+            c93['5'] = False
+        elif solvednums[4][2] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c54['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c41['6'] = False
+            c42['6'] = False
+            c43['6'] = False
+            c61['6'] = False
+            c62['6'] = False
+            c63['6'] = False
+            c13['6'] = False
+            c23['6'] = False
+            c33['6'] = False
+            c73['6'] = False
+            c83['6'] = False
+            c93['6'] = False
+        elif solvednums[4][2] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c54['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c41['7'] = False
+            c42['7'] = False
+            c43['7'] = False
+            c61['7'] = False
+            c62['7'] = False
+            c63['7'] = False
+            c13['7'] = False
+            c23['7'] = False
+            c33['7'] = False
+            c73['7'] = False
+            c83['7'] = False
+            c93['7'] = False
+        elif solvednums[4][2] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c54['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c41['8'] = False
+            c42['8'] = False
+            c43['8'] = False
+            c61['8'] = False
+            c62['8'] = False
+            c63['8'] = False
+            c13['8'] = False
+            c23['8'] = False
+            c33['8'] = False
+            c73['8'] = False
+            c83['8'] = False
+            c93['8'] = False
+        elif solvednums[4][2] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c54['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c41['9'] = False
+            c42['9'] = False
+            c43['9'] = False
+            c61['9'] = False
+            c62['9'] = False
+            c63['9'] = False
+            c13['9'] = False
+            c23['9'] = False
+            c33['9'] = False
+            c73['9'] = False   
+            c83['9'] = False
+            c93['9'] = False
+    if puzzlenums[4][3] > 0 and e54do == True:
+        solvednums[4][3] = puzzlenums[4][3]
+        e54do = False
+        sleep(1)
+    elif e54do == True and c54['1'] == True and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 1
+    elif e54do == True and c54['1'] == False and c54['2'] == True and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 2
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == True and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 3
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == True and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 4
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == True and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 5
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == True and c54['7'] == False and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 6
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == True and c54['8'] == False and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 7
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == True and c54['9'] == False:
+        e54do == False
+        solvednums[4][3] = 8
+    elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == True:
+        e54do == False
+        solvednums[4][3] = 9
+    else:
+        if solvednums[4][3] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c44['1'] = False
+            c45['1'] = False
+            c46['1'] = False
+            c64['1'] = False
+            c65['1'] = False
+            c66['1'] = False
+            c14['1'] = False
+            c24['1'] = False
+            c34['1'] = False
+            c74['1'] = False
+            c84['1'] = False
+            c94['1'] = False
+        elif solvednums[4][3] == 2:
+            c51['2'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c44['2'] = False
+            c45['2'] = False
+            c46['2'] = False
+            c64['2'] = False
+            c65['2'] = False
+            c66['2'] = False
+            c14['2'] = False
+            c24['2'] = False
+            c34['2'] = False
+            c74['2'] = False
+            c84['2'] = False
+            c94['2'] = False
+        elif solvednums[4][3] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c53['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c44['3'] = False
+            c45['3'] = False
+            c46['3'] = False
+            c64['3'] = False
+            c65['3'] = False
+            c66['3'] = False
+            c14['3'] = False
+            c24['3'] = False
+            c34['3'] = False
+            c74['3'] = False
+            c84['3'] = False
+            c94['3'] = False
+        elif solvednums[4][3] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c53['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c44['4'] = False
+            c45['4'] = False
+            c46['4'] = False
+            c64['4'] = False
+            c65['4'] = False
+            c66['4'] = False
+            c14['4'] = False
+            c24['4'] = False
+            c34['4'] = False
+            c74['4'] = False
+            c84['4'] = False
+            c94['4'] = False
+        elif solvednums[4][3] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c53['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c44['5'] = False
+            c45['5'] = False
+            c46['5'] = False
+            c64['5'] = False
+            c65['5'] = False
+            c66['5'] = False
+            c14['5'] = False
+            c24['5'] = False
+            c34['5'] = False
+            c74['5'] = False
+            c84['5'] = False
+            c94['5'] = False
+        elif solvednums[4][3] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c53['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c44['6'] = False
+            c45['6'] = False
+            c46['6'] = False
+            c64['6'] = False
+            c65['6'] = False
+            c66['6'] = False
+            c14['6'] = False
+            c24['6'] = False
+            c34['6'] = False
+            c74['6'] = False
+            c84['6'] = False
+            c94['6'] = False
+        elif solvednums[4][3] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c53['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c44['7'] = False
+            c45['7'] = False
+            c46['7'] = False
+            c64['7'] = False
+            c65['7'] = False
+            c66['7'] = False
+            c14['7'] = False
+            c24['7'] = False
+            c34['7'] = False
+            c74['7'] = False
+            c84['7'] = False
+            c94['7'] = False
+        elif solvednums[4][3] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c53['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c44['8'] = False
+            c45['8'] = False
+            c46['8'] = False
+            c64['8'] = False
+            c65['8'] = False
+            c66['8'] = False
+            c14['8'] = False
+            c24['8'] = False
+            c34['8'] = False
+            c74['8'] = False
+            c84['8'] = False
+            c94['8'] = False
+        elif solvednums[4][3] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c53['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c44['9'] = False
+            c45['9'] = False
+            c46['9'] = False
+            c64['9'] = False
+            c65['9'] = False
+            c66['9'] = False
+            c14['9'] = False
+            c24['9'] = False
+            c34['9'] = False
+            c74['9'] = False   
+            c84['9'] = False
+            c94['9'] = False
+    if puzzlenums[4][4] > 0 and e55do == True:
+        solvednums[4][4] = puzzlenums[4][4]
+        e55do = False
+        sleep(1)
+    elif e55do == True and c55['1'] == True and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 1
+    elif e55do == True and c55['1'] == False and c55['2'] == True and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 2
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == True and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 3
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == True and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 4
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == True and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 5
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == True and c55['7'] == False and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 6
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == True and c55['8'] == False and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 7
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == True and c55['9'] == False:
+        e55do == False
+        solvednums[4][4] = 8
+    elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == True:
+        e55do == False
+        solvednums[4][4] = 9
+    else:
+        if solvednums[4][4] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c44['1'] = False
+            c45['1'] = False
+            c46['1'] = False
+            c64['1'] = False
+            c65['1'] = False
+            c66['1'] = False
+            c15['1'] = False
+            c25['1'] = False
+            c35['1'] = False
+            c75['1'] = False
+            c85['1'] = False
+            c95['1'] = False
+        elif solvednums[4][4] == 2:
+            c51['2'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c44['2'] = False
+            c45['2'] = False
+            c46['2'] = False
+            c64['2'] = False
+            c65['2'] = False
+            c66['2'] = False
+            c15['2'] = False
+            c25['2'] = False
+            c35['2'] = False
+            c75['2'] = False
+            c85['2'] = False
+            c95['2'] = False
+        elif solvednums[4][4] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c53['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c44['3'] = False
+            c45['3'] = False
+            c46['3'] = False
+            c64['3'] = False
+            c65['3'] = False
+            c66['3'] = False
+            c15['3'] = False
+            c25['3'] = False
+            c35['3'] = False
+            c75['3'] = False
+            c85['3'] = False
+            c95['3'] = False
+        elif solvednums[4][4] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c53['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c44['4'] = False
+            c45['4'] = False
+            c46['4'] = False
+            c64['4'] = False
+            c65['4'] = False
+            c66['4'] = False
+            c15['4'] = False
+            c25['4'] = False
+            c35['4'] = False
+            c75['4'] = False
+            c85['4'] = False
+            c95['4'] = False
+        elif solvednums[4][4] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c53['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c44['5'] = False
+            c45['5'] = False
+            c46['5'] = False
+            c64['5'] = False
+            c65['5'] = False
+            c66['5'] = False
+            c15['5'] = False
+            c25['5'] = False
+            c35['5'] = False
+            c75['5'] = False
+            c85['5'] = False
+            c95['5'] = False
+        elif solvednums[4][4] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c53['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c44['6'] = False
+            c45['6'] = False
+            c46['6'] = False
+            c64['6'] = False
+            c65['6'] = False
+            c66['6'] = False
+            c15['6'] = False
+            c25['6'] = False
+            c35['6'] = False
+            c75['6'] = False
+            c85['6'] = False
+            c95['6'] = False
+        elif solvednums[4][4] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c53['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c44['7'] = False
+            c45['7'] = False
+            c46['7'] = False
+            c64['7'] = False
+            c65['7'] = False
+            c66['7'] = False
+            c15['7'] = False
+            c25['7'] = False
+            c35['7'] = False
+            c75['7'] = False
+            c85['7'] = False
+            c95['7'] = False
+        elif solvednums[4][4] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c53['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c44['8'] = False
+            c45['8'] = False
+            c46['8'] = False
+            c64['8'] = False
+            c65['8'] = False
+            c66['8'] = False
+            c15['8'] = False
+            c25['8'] = False
+            c35['8'] = False
+            c75['8'] = False
+            c85['8'] = False
+            c95['8'] = False
+        elif solvednums[4][4] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c53['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c44['9'] = False
+            c45['9'] = False
+            c46['9'] = False
+            c64['9'] = False
+            c65['9'] = False
+            c66['9'] = False
+            c15['9'] = False
+            c25['9'] = False
+            c35['9'] = False
+            c75['9'] = False   
+            c85['9'] = False
+            c95['9'] = False
+    if puzzlenums[4][5] > 0 and e56do == True:
+        solvednums[4][5] = puzzlenums[4][5]
+        e56do = False
+        sleep(1)
+    elif e56do == True and c56['1'] == True and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 1
+    elif e56do == True and c56['1'] == False and c56['2'] == True and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 2
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == True and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 3
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == True and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][6] = 4
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == True and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 5
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == True and c56['7'] == False and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 6
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == True and c56['8'] == False and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 7
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == True and c56['9'] == False:
+        e56do == False
+        solvednums[4][5] = 8
+    elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == True:
+        e56do == False
+        solvednums[4][5] = 9     
+    else:
+        if solvednums[4][5] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c44['1'] = False
+            c45['1'] = False
+            c46['1'] = False
+            c64['1'] = False
+            c65['1'] = False
+            c66['1'] = False
+            c16['1'] = False
+            c26['1'] = False
+            c36['1'] = False
+            c76['1'] = False
+            c86['1'] = False
+            c96['1'] = False
+        elif solvednums[4][5] == 2: 
+            c51['2'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c44['2'] = False
+            c45['2'] = False
+            c46['2'] = False
+            c64['2'] = False
+            c65['2'] = False
+            c66['2'] = False
+            c16['2'] = False
+            c26['2'] = False
+            c36['2'] = False
+            c76['2'] = False
+            c86['2'] = False
+            c96['2'] = False
+        elif solvednums[4][5] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c53['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c44['3'] = False
+            c45['3'] = False
+            c46['3'] = False
+            c64['3'] = False
+            c65['3'] = False
+            c66['3'] = False
+            c16['3'] = False
+            c26['3'] = False
+            c36['3'] = False
+            c76['3'] = False
+            c86['3'] = False
+            c96['3'] = False
+        elif solvednums[4][5] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c53['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c44['4'] = False
+            c45['4'] = False
+            c46['4'] = False
+            c64['4'] = False
+            c65['4'] = False
+            c66['4'] = False
+            c16['4'] = False
+            c26['4'] = False
+            c36['4'] = False
+            c76['4'] = False
+            c86['4'] = False
+            c96['4'] = False
+        elif solvednums[4][5] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c53['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c44['5'] = False
+            c45['5'] = False
+            c46['5'] = False
+            c64['5'] = False
+            c65['5'] = False
+            c66['5'] = False
+            c16['5'] = False
+            c26['5'] = False
+            c36['5'] = False
+            c76['5'] = False
+            c86['5'] = False
+            c96['5'] = False
+        elif solvednums[4][5] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c53['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c44['6'] = False
+            c45['6'] = False
+            c46['6'] = False
+            c64['6'] = False
+            c65['6'] = False
+            c66['6'] = False
+            c16['6'] = False
+            c26['6'] = False
+            c36['6'] = False
+            c76['6'] = False
+            c86['6'] = False
+            c96['6'] = False
+        elif solvednums[4][5] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c53['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c44['7'] = False
+            c45['7'] = False
+            c46['7'] = False
+            c64['7'] = False
+            c65['7'] = False
+            c66['7'] = False
+            c16['7'] = False
+            c26['7'] = False
+            c36['7'] = False
+            c76['7'] = False
+            c86['7'] = False
+            c96['7'] = False
+        elif solvednums[4][5] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c53['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c44['8'] = False
+            c45['8'] = False
+            c46['8'] = False
+            c64['8'] = False
+            c65['8'] = False
+            c66['8'] = False
+            c16['8'] = False
+            c26['8'] = False
+            c36['8'] = False
+            c76['8'] = False
+            c86['8'] = False
+            c96['8'] = False
+        elif solvednums[4][5] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c53['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c44['9'] = False
+            c45['9'] = False
+            c46['9'] = False
+            c64['9'] = False
+            c65['9'] = False
+            c66['9'] = False
+            c16['9'] = False
+            c26['9'] = False
+            c36['9'] = False
+            c76['9'] = False   
+            c86['9'] = False
+            c96['9'] = False
+    if puzzlenums[4][6] > 0 and e57do == True:
+        solvednums[4][6] = puzzlenums[4][6]
+        e57do = False
+        sleep(1)
+    elif e57do == True and c57['1'] == True and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 1
+    elif e57do == True and c57['1'] == False and c57['2'] == True and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 2
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == True and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 3
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == True and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 4
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == True and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 5
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == True and c57['7'] == False and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 6
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == True and c57['8'] == False and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 7
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == True and c57['9'] == False:
+        e57do == False
+        solvednums[4][6] = 8
+    elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == True:
+        e57do == False
+        solvednums[4][6] = 9
+    else:
+        if solvednums[4][6] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c47['1'] = False
+            c48['1'] = False
+            c49['1'] = False
+            c67['1'] = False
+            c68['1'] = False
+            c69['1'] = False
+            c17['1'] = False
+            c27['1'] = False
+            c37['1'] = False
+            c77['1'] = False
+            c87['1'] = False
+            c97['1'] = False
+        elif solvednums[4][6] == 2:
+            c51['2'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c47['2'] = False
+            c48['2'] = False
+            c49['2'] = False
+            c67['2'] = False
+            c68['2'] = False
+            c69['2'] = False
+            c17['2'] = False
+            c27['2'] = False
+            c37['2'] = False
+            c77['2'] = False
+            c87['2'] = False
+            c97['2'] = False
+        elif solvednums[4][6] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c53['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c47['3'] = False
+            c48['3'] = False
+            c49['3'] = False
+            c67['3'] = False
+            c68['3'] = False
+            c69['3'] = False
+            c17['3'] = False
+            c27['3'] = False
+            c37['3'] = False
+            c77['3'] = False
+            c87['3'] = False
+            c97['3'] = False
+        elif solvednums[4][6] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c53['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c47['4'] = False
+            c48['4'] = False
+            c49['4'] = False
+            c67['4'] = False
+            c68['4'] = False
+            c69['4'] = False
+            c17['4'] = False
+            c27['4'] = False
+            c37['4'] = False
+            c77['4'] = False
+            c87['4'] = False
+            c97['4'] = False
+        elif solvednums[4][6] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c53['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c47['5'] = False
+            c48['5'] = False
+            c49['5'] = False
+            c67['5'] = False
+            c68['5'] = False
+            c69['5'] = False
+            c17['5'] = False
+            c27['5'] = False
+            c37['5'] = False
+            c77['5'] = False
+            c87['5'] = False
+            c97['5'] = False
+        elif solvednums[4][6] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c53['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c47['6'] = False
+            c48['6'] = False
+            c49['6'] = False
+            c67['6'] = False
+            c68['6'] = False
+            c69['6'] = False
+            c17['6'] = False
+            c27['6'] = False
+            c37['6'] = False
+            c77['6'] = False
+            c87['6'] = False
+            c97['6'] = False
+        elif solvednums[4][6] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c53['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c47['7'] = False
+            c48['7'] = False
+            c49['7'] = False
+            c67['7'] = False
+            c68['7'] = False
+            c69['7'] = False
+            c17['7'] = False
+            c27['7'] = False
+            c37['7'] = False
+            c77['7'] = False
+            c87['7'] = False
+            c97['7'] = False
+        elif solvednums[4][6] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c53['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c47['8'] = False
+            c48['8'] = False
+            c49['8'] = False
+            c67['8'] = False
+            c68['8'] = False
+            c69['8'] = False
+            c17['8'] = False
+            c27['8'] = False
+            c37['8'] = False
+            c77['8'] = False
+            c87['8'] = False
+            c97['8'] = False
+        elif solvednums[4][6] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c53['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c47['9'] = False
+            c48['9'] = False
+            c49['9'] = False
+            c67['9'] = False
+            c68['9'] = False
+            c69['9'] = False
+            c17['9'] = False
+            c27['9'] = False
+            c37['9'] = False
+            c77['9'] = False   
+            c87['9'] = False
+            c97['9'] = False
+    if puzzlenums[4][7] > 0 and e58do == True:
+        solvednums[4][7] = puzzlenums[4][7]
+        e58do = False
+        sleep(1)
+    elif e58do == True and c58['1'] == True and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 1
+    elif e58do == True and c58['1'] == False and c58['2'] == True and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 2
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == True and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 3
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == True and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 4
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == True and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 5
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == True and c58['7'] == False and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 6
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == True and c58['8'] == False and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 7
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == True and c58['9'] == False:
+        e58do == False
+        solvednums[4][7] = 8
+    elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == True:
+        e58do == False
+        solvednums[4][7] = 9
+    else:
+        if solvednums[4][7] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c47['1'] = False
+            c48['1'] = False
+            c49['1'] = False
+            c67['1'] = False
+            c68['1'] = False
+            c69['1'] = False
+            c18['1'] = False
+            c28['1'] = False
+            c38['1'] = False
+            c78['1'] = False
+            c88['1'] = False
+            c98['1'] = False
+        elif solvednums[4][7] == 2:
+            c51['2'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c47['2'] = False
+            c48['2'] = False
+            c49['2'] = False
+            c67['2'] = False
+            c68['2'] = False
+            c69['2'] = False
+            c18['2'] = False
+            c28['2'] = False
+            c38['2'] = False
+            c78['2'] = False
+            c88['2'] = False
+            c98['2'] = False
+        elif solvednums[4][7] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c53['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c47['3'] = False
+            c48['3'] = False
+            c49['3'] = False
+            c67['3'] = False
+            c68['3'] = False
+            c69['3'] = False
+            c18['3'] = False
+            c28['3'] = False
+            c38['3'] = False
+            c78['3'] = False
+            c88['3'] = False
+            c98['3'] = False
+        elif solvednums[4][7] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c53['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c47['4'] = False
+            c48['4'] = False
+            c49['4'] = False
+            c67['4'] = False
+            c68['4'] = False
+            c69['4'] = False
+            c18['4'] = False
+            c28['4'] = False
+            c38['4'] = False
+            c78['4'] = False
+            c88['4'] = False
+            c98['4'] = False
+        elif solvednums[4][7] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c53['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c47['5'] = False
+            c48['5'] = False
+            c49['5'] = False
+            c69['5'] = False
+            c68['5'] = False
+            c69['5'] = False
+            c18['5'] = False
+            c28['5'] = False
+            c38['5'] = False
+            c78['5'] = False
+            c88['5'] = False
+            c98['5'] = False
+        elif solvednums[4][7] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c53['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c47['6'] = False
+            c48['6'] = False
+            c49['6'] = False
+            c67['6'] = False
+            c68['6'] = False
+            c69['6'] = False
+            c18['6'] = False
+            c28['6'] = False
+            c38['6'] = False
+            c78['6'] = False
+            c88['6'] = False
+            c98['6'] = False
+        elif solvednums[4][7] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c53['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c47['7'] = False
+            c48['7'] = False
+            c49['7'] = False
+            c67['7'] = False
+            c68['7'] = False
+            c69['7'] = False
+            c18['7'] = False
+            c28['7'] = False
+            c38['7'] = False
+            c78['7'] = False
+            c88['7'] = False
+            c98['7'] = False
+        elif solvednums[4][7] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c53['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c47['8'] = False
+            c48['8'] = False
+            c49['8'] = False
+            c67['8'] = False
+            c68['8'] = False
+            c69['8'] = False
+            c18['8'] = False
+            c28['8'] = False
+            c38['8'] = False
+            c78['8'] = False
+            c88['8'] = False
+            c98['8'] = False
+        elif solvednums[4][7] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c53['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c47['9'] = False
+            c48['9'] = False
+            c49['9'] = False
+            c67['9'] = False
+            c68['9'] = False
+            c69['9'] = False
+            c18['9'] = False
+            c28['9'] = False
+            c38['9'] = False
+            c78['9'] = False   
+            c88['9'] = False
+            c98['9'] = False
+    if puzzlenums[4][8] > 0 and e59do == True:
+        solvednums[4][8] = puzzlenums[4][8]
+        e59do = False
+        sleep(1)
+    elif e59do == True and c59['1'] == True and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 1
+    elif e59do == True and c59['1'] == False and c59['2'] == True and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 2
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == True and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 3
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == True and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 4
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == True and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 5
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == True and c59['7'] == False and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 6
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == True and c59['8'] == False and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 7
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == True and c59['9'] == False:
+        e59do == False
+        solvednums[4][8] = 8
+    elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == True:
+        e59do == False
+        solvednums[4][8] = 9
+    else:
+        if solvednums[4][8] == 1:
+            c51['1'] = False
+            c52['1'] = False
+            c53['1'] = False
+            c55['1'] = False
+            c56['1'] = False
+            c57['1'] = False
+            c58['1'] = False
+            c59['1'] = False
+            c47['1'] = False
+            c48['1'] = False
+            c49['1'] = False
+            c67['1'] = False
+            c68['1'] = False
+            c69['1'] = False
+            c19['1'] = False
+            c29['1'] = False
+            c39['1'] = False
+            c79['1'] = False
+            c89['1'] = False
+            c99['1'] = False
+        elif solvednums[4][8] == 2:
+            c51['2'] = False
+            c52['2'] = False
+            c53['2'] = False
+            c55['2'] = False
+            c56['2'] = False
+            c57['2'] = False
+            c58['2'] = False
+            c59['2'] = False
+            c47['2'] = False
+            c48['2'] = False
+            c49['2'] = False
+            c67['2'] = False
+            c68['2'] = False
+            c69['2'] = False
+            c19['2'] = False
+            c29['2'] = False
+            c39['2'] = False
+            c79['2'] = False
+            c89['2'] = False
+            c99['2'] = False
+        elif solvednums[4][8] == 3:
+            c51['3'] = False
+            c52['3'] = False
+            c53['3'] = False
+            c55['3'] = False
+            c56['3'] = False
+            c57['3'] = False
+            c58['3'] = False
+            c59['3'] = False
+            c47['3'] = False
+            c48['3'] = False
+            c49['3'] = False
+            c67['3'] = False
+            c68['3'] = False
+            c69['3'] = False
+            c19['3'] = False
+            c29['3'] = False
+            c39['3'] = False
+            c79['3'] = False
+            c89['3'] = False
+            c99['3'] = False
+        elif solvednums[4][8] == 4:
+            c51['4'] = False
+            c52['4'] = False
+            c53['4'] = False
+            c55['4'] = False
+            c56['4'] = False
+            c57['4'] = False
+            c58['4'] = False
+            c59['4'] = False
+            c47['4'] = False
+            c48['4'] = False
+            c49['4'] = False
+            c67['4'] = False
+            c68['4'] = False
+            c69['4'] = False
+            c19['4'] = False
+            c29['4'] = False
+            c39['4'] = False
+            c79['4'] = False
+            c89['4'] = False
+            c99['4'] = False
+        elif solvednums[4][8] == 5:
+            c51['5'] = False
+            c52['5'] = False
+            c53['5'] = False
+            c55['5'] = False
+            c56['5'] = False
+            c57['5'] = False
+            c58['5'] = False
+            c59['5'] = False
+            c47['5'] = False
+            c48['5'] = False
+            c49['5'] = False
+            c67['5'] = False
+            c68['5'] = False
+            c69['5'] = False
+            c19['5'] = False
+            c29['5'] = False
+            c39['5'] = False
+            c79['5'] = False
+            c89['5'] = False
+            c99['5'] = False
+        elif solvednums[4][8] == 6:
+            c51['6'] = False
+            c52['6'] = False
+            c53['6'] = False
+            c55['6'] = False
+            c56['6'] = False
+            c57['6'] = False
+            c58['6'] = False
+            c59['6'] = False
+            c47['6'] = False
+            c48['6'] = False
+            c49['6'] = False
+            c67['6'] = False
+            c68['6'] = False
+            c69['6'] = False
+            c19['6'] = False
+            c29['6'] = False
+            c39['6'] = False
+            c79['6'] = False
+            c89['6'] = False
+            c99['6'] = False
+        elif solvednums[4][8] == 7:
+            c51['7'] = False
+            c52['7'] = False
+            c53['7'] = False
+            c55['7'] = False
+            c56['7'] = False
+            c57['7'] = False
+            c58['7'] = False
+            c59['7'] = False
+            c47['7'] = False
+            c48['7'] = False
+            c49['7'] = False
+            c67['7'] = False
+            c68['7'] = False
+            c69['7'] = False
+            c19['7'] = False
+            c29['7'] = False
+            c39['7'] = False
+            c79['7'] = False
+            c89['7'] = False
+            c99['7'] = False
+        elif solvednums[4][8] == 8:
+            c51['8'] = False
+            c52['8'] = False
+            c53['8'] = False
+            c55['8'] = False
+            c56['8'] = False
+            c57['8'] = False
+            c58['8'] = False
+            c59['8'] = False
+            c47['8'] = False
+            c48['8'] = False
+            c49['8'] = False
+            c67['8'] = False
+            c68['8'] = False
+            c69['8'] = False
+            c19['8'] = False
+            c29['8'] = False
+            c39['8'] = False
+            c79['8'] = False
+            c89['8'] = False
+            c99['8'] = False
+        elif solvednums[4][8] == 9:
+            c51['9'] = False
+            c52['9'] = False
+            c53['9'] = False
+            c55['9'] = False 
+            c56['9'] = False
+            c57['9'] = False
+            c58['9'] = False
+            c59['9'] = False
+            c47['9'] = False
+            c48['9'] = False
+            c49['9'] = False
             c67['9'] = False
             c68['9'] = False
             c69['9'] = False
