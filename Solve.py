@@ -1416,8 +1416,173 @@ e97do = True
 e98do = True
 e99do = True
 solvednums = [[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
+def placenums():
+    o11.configure(text=solvednums[0][0])
+    o12.configure(text=solvednums[0][1])
+    o13.configure(text=solvednums[0][2])
+    o14.configure(text=solvednums[0][3])
+    o15.configure(text=solvednums[0][4])
+    o16.configure(text=solvednums[0][5])
+    o17.configure(text=solvednums[0][6])
+    o18.configure(text=solvednums[0][7])
+    o19.configure(text=solvednums[0][8])
+    o21.configure(text=solvednums[1][0])
+    o22.configure(text=solvednums[1][1])
+    o23.configure(text=solvednums[1][2])
+    o24.configure(text=solvednums[1][3])
+    o25.configure(text=solvednums[1][4])
+    o26.configure(text=solvednums[1][5])
+    o27.configure(text=solvednums[1][6])
+    o28.configure(text=solvednums[1][7])
+    o29.configure(text=solvednums[1][8])
+    o31.configure(text=solvednums[2][0])
+    o32.configure(text=solvednums[2][1])
+    o33.configure(text=solvednums[2][2])
+    o34.configure(text=solvednums[2][3])
+    o35.configure(text=solvednums[2][4])
+    o36.configure(text=solvednums[2][5])
+    o37.configure(text=solvednums[2][6])
+    o38.configure(text=solvednums[2][7])
+    o39.configure(text=solvednums[2][8])
+    o41.configure(text=solvednums[3][0])
+    o42.configure(text=solvednums[3][1])
+    o43.configure(text=solvednums[3][2])
+    o44.configure(text=solvednums[3][3])
+    o45.configure(text=solvednums[3][4])
+    o46.configure(text=solvednums[3][5])
+    o47.configure(text=solvednums[3][6])
+    o48.configure(text=solvednums[3][7])
+    o49.configure(text=solvednums[3][8])
+    o51.configure(text=solvednums[4][0])
+    o52.configure(text=solvednums[4][1])
+    o53.configure(text=solvednums[4][2])
+    o54.configure(text=solvednums[4][3])
+    o55.configure(text=solvednums[4][4])
+    o56.configure(text=solvednums[4][5])
+    o57.configure(text=solvednums[4][6])
+    o58.configure(text=solvednums[4][7])
+    o59.configure(text=solvednums[4][8])
+    o61.configure(text=solvednums[5][0])
+    o62.configure(text=solvednums[5][1])
+    o63.configure(text=solvednums[5][2])
+    o64.configure(text=solvednums[5][3])
+    o65.configure(text=solvednums[5][4])
+    o66.configure(text=solvednums[5][5])
+    o67.configure(text=solvednums[5][6])
+    o68.configure(text=solvednums[5][7])
+    o69.configure(text=solvednums[5][8])
+    o71.configure(text=solvednums[6][0])
+    o72.configure(text=solvednums[6][1])
+    o73.configure(text=solvednums[6][2])
+    o74.configure(text=solvednums[6][3])
+    o75.configure(text=solvednums[6][4])
+    o76.configure(text=solvednums[6][5])
+    o77.configure(text=solvednums[6][6])
+    o78.configure(text=solvednums[6][7])
+    o79.configure(text=solvednums[6][8])
+    o81.configure(text=solvednums[7][0])
+    o82.configure(text=solvednums[7][1])
+    o83.configure(text=solvednums[7][2])
+    o84.configure(text=solvednums[7][3])
+    o85.configure(text=solvednums[7][4])
+    o86.configure(text=solvednums[7][5])
+    o87.configure(text=solvednums[7][6])
+    o88.configure(text=solvednums[7][7])
+    o89.configure(text=solvednums[7][8])
+    o91.configure(text=solvednums[8][0])
+    o92.configure(text=solvednums[8][1])
+    o93.configure(text=solvednums[8][2])
+    o94.configure(text=solvednums[8][3])
+    o95.configure(text=solvednums[8][4])
+    o96.configure(text=solvednums[8][5])
+    o97.configure(text=solvednums[8][6])
+    o98.configure(text=solvednums[8][7])
+    o99.configure(text=solvednums[8][8])
+    return
+
 def solve():
     """Solve Dat Puzzle"""
+    global e11do
+    global e12do
+    global e13do
+    global e14do
+    global e15do
+    global e16do
+    global e17do
+    global e18do
+    global e19do
+    global e21do
+    global e22do
+    global e23do
+    global e24do
+    global e25do
+    global e26do
+    global e27do
+    global e28do
+    global e29do
+    global e31do
+    global e32do
+    global e33do
+    global e34do
+    global e35do
+    global e36do
+    global e37do
+    global e38do
+    global e39do
+    global e41do
+    global e42do
+    global e43do
+    global e44do
+    global e45do
+    global e46do
+    global e47do
+    global e48do
+    global e49do
+    global e51do
+    global e52do
+    global e53do
+    global e54do
+    global e55do
+    global e56do
+    global e57do
+    global e58do
+    global e59do
+    global e61do
+    global e62do
+    global e63do
+    global e64do
+    global e65do
+    global e66do
+    global e67do
+    global e68do
+    global e69do
+    global e71do
+    global e72do
+    global e73do
+    global e74do
+    global e75do
+    global e76do
+    global e77do
+    global e78do
+    global e79do
+    global e81do
+    global e82do
+    global e83do
+    global e84do
+    global e85do
+    global e86do
+    global e87do
+    global e88do
+    global e89do
+    global e91do
+    global e92do
+    global e93do
+    global e94do
+    global e95do
+    global e96do
+    global e97do
+    global e98do
+    global e99do
     sleep(1)
     if puzzlenums[0][0] > 0 and e11do == True:
         solvednums[0][0] = puzzlenums[0][0]
