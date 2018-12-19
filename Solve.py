@@ -1418,38 +1418,37 @@ e99do = True
 solvednums = [[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
 def solve():
     """Solve Dat Puzzle"""
-    e11do = True
     sleep(1)
     if puzzlenums[0][0] > 0 and e11do == True:
         solvednums[0][0] = puzzlenums[0][0]
         e11do = False
         sleep(1)
     elif e11do == True and c11['1'] == True and c11['2'] == False and c11['3'] == False and c11['4'] == False and c11['5'] == False and c11['6'] == False and c11['7'] == False and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 1
     elif e11do == True and c11['1'] == False and c11['2'] == True and c11['3'] == False and c11['4'] == False and c11['5'] == False and c11['6'] == False and c11['7'] == False and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 2
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == True and c11['4'] == False and c11['5'] == False and c11['6'] == False and c11['7'] == False and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 3
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == False and c11['4'] == True and c11['5'] == False and c11['6'] == False and c11['7'] == False and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 4
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == False and c11['4'] == False and c11['5'] == True and c11['6'] == False and c11['7'] == False and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 5
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == False and c11['4'] == False and c11['5'] == False and c11['6'] == True and c11['7'] == False and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 6
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == False and c11['4'] == False and c11['5'] == False and c11['6'] == False and c11['7'] == True and c11['8'] == False and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 7
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == False and c11['4'] == False and c11['5'] == False and c11['6'] == False and c11['7'] == False and c11['8'] == True and c11['9'] == False:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 8
     elif e11do == True and c11['1'] == False and c11['2'] == False and c11['3'] == False and c11['4'] == False and c11['5'] == False and c11['6'] == False and c11['7'] == False and c11['8'] == False and c11['9'] == True:
-        e11do == False
+        e11do = False
         solvednums[0][0] = 9
     else:
         if solvednums[0][0] == 1:
@@ -1664,31 +1663,31 @@ def solve():
         e12do = False
         sleep(1)
     elif e12do == True and c12['1'] == True and c12['2'] == False and c12['3'] == False and c12['4'] == False and c12['5'] == False and c12['6'] == False and c12['7'] == False and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 1
     elif e12do == True and c12['1'] == False and c12['2'] == True and c12['3'] == False and c12['4'] == False and c12['5'] == False and c12['6'] == False and c12['7'] == False and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 2
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == True and c12['4'] == False and c12['5'] == False and c12['6'] == False and c12['7'] == False and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 3
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == False and c12['4'] == True and c12['5'] == False and c12['6'] == False and c12['7'] == False and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 4
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == False and c12['4'] == False and c12['5'] == True and c12['6'] == False and c12['7'] == False and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 5
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == False and c12['4'] == False and c12['5'] == False and c12['6'] == True and c12['7'] == False and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 6
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == False and c12['4'] == False and c12['5'] == False and c12['6'] == False and c12['7'] == True and c12['8'] == False and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 7
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == False and c12['4'] == False and c12['5'] == False and c12['6'] == False and c12['7'] == False and c12['8'] == True and c12['9'] == False:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 8
     elif e12do == True and c12['1'] == False and c12['2'] == False and c12['3'] == False and c12['4'] == False and c12['5'] == False and c12['6'] == False and c12['7'] == False and c12['8'] == False and c12['9'] == True:
-        e12do == False
+        e12do = False
         solvednums[0][1] = 9
     else:
         if solvednums[0][1] == 1:
@@ -1885,31 +1884,31 @@ def solve():
         e13do = False
         sleep(1)
     elif e13do == True and c13['1'] == True and c13['2'] == False and c13['3'] == False and c13['4'] == False and c13['5'] == False and c13['6'] == False and c13['7'] == False and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 1
     elif e13do == True and c13['1'] == False and c13['2'] == True and c13['3'] == False and c13['4'] == False and c13['5'] == False and c13['6'] == False and c13['7'] == False and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 2
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == True and c13['4'] == False and c13['5'] == False and c13['6'] == False and c13['7'] == False and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 3
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == False and c13['4'] == True and c13['5'] == False and c13['6'] == False and c13['7'] == False and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 4
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == False and c13['4'] == False and c13['5'] == True and c13['6'] == False and c13['7'] == False and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 5
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == False and c13['4'] == False and c13['5'] == False and c13['6'] == True and c13['7'] == False and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 6
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == False and c13['4'] == False and c13['5'] == False and c13['6'] == False and c13['7'] == True and c13['8'] == False and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 7
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == False and c13['4'] == False and c13['5'] == False and c13['6'] == False and c13['7'] == False and c13['8'] == True and c13['9'] == False:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 8
     elif e13do == True and c13['1'] == False and c13['2'] == False and c13['3'] == False and c13['4'] == False and c13['5'] == False and c13['6'] == False and c13['7'] == False and c13['8'] == False and c13['9'] == True:
-        e13do == False
+        e13do = False
         solvednums[0][2] = 9
     else:
         if solvednums[0][2] == 1:
@@ -2106,31 +2105,31 @@ def solve():
         e14do = False
         sleep(1)
     elif e14do == True and c14['1'] == True and c14['2'] == False and c14['3'] == False and c14['4'] == False and c14['5'] == False and c14['6'] == False and c14['7'] == False and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 1
     elif e14do == True and c14['1'] == False and c14['2'] == True and c14['3'] == False and c14['4'] == False and c14['5'] == False and c14['6'] == False and c14['7'] == False and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 2
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == True and c14['4'] == False and c14['5'] == False and c14['6'] == False and c14['7'] == False and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 3
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == False and c14['4'] == True and c14['5'] == False and c14['6'] == False and c14['7'] == False and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 4
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == False and c14['4'] == False and c14['5'] == True and c14['6'] == False and c14['7'] == False and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 5
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == False and c14['4'] == False and c14['5'] == False and c14['6'] == True and c14['7'] == False and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 6
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == False and c14['4'] == False and c14['5'] == False and c14['6'] == False and c14['7'] == True and c14['8'] == False and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 7
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == False and c14['4'] == False and c14['5'] == False and c14['6'] == False and c14['7'] == False and c14['8'] == True and c14['9'] == False:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 8
     elif e14do == True and c14['1'] == False and c14['2'] == False and c14['3'] == False and c14['4'] == False and c14['5'] == False and c14['6'] == False and c14['7'] == False and c14['8'] == False and c14['9'] == True:
-        e14do == False
+        e14do = False
         solvednums[0][3] = 9
     else:
         if solvednums[0][3] == 1:
@@ -2327,31 +2326,31 @@ def solve():
         e15do = False
         sleep(1)
     elif e15do == True and c15['1'] == True and c15['2'] == False and c15['3'] == False and c15['4'] == False and c15['5'] == False and c15['6'] == False and c15['7'] == False and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 1
     elif e15do == True and c15['1'] == False and c15['2'] == True and c15['3'] == False and c15['4'] == False and c15['5'] == False and c15['6'] == False and c15['7'] == False and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 2
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == True and c15['4'] == False and c15['5'] == False and c15['6'] == False and c15['7'] == False and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 3
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == False and c15['4'] == True and c15['5'] == False and c15['6'] == False and c15['7'] == False and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 4
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == False and c15['4'] == False and c15['5'] == True and c15['6'] == False and c15['7'] == False and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 5
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == False and c15['4'] == False and c15['5'] == False and c15['6'] == True and c15['7'] == False and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 6
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == False and c15['4'] == False and c15['5'] == False and c15['6'] == False and c15['7'] == True and c15['8'] == False and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 7
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == False and c15['4'] == False and c15['5'] == False and c15['6'] == False and c15['7'] == False and c15['8'] == True and c15['9'] == False:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 8
     elif e15do == True and c15['1'] == False and c15['2'] == False and c15['3'] == False and c15['4'] == False and c15['5'] == False and c15['6'] == False and c15['7'] == False and c15['8'] == False and c15['9'] == True:
-        e15do == False
+        e15do = False
         solvednums[0][4] = 9
     else:
         if solvednums[0][4] == 1:
@@ -2548,31 +2547,31 @@ def solve():
         e16do = False
         sleep(1)
     elif e16do == True and c16['1'] == True and c16['2'] == False and c16['3'] == False and c16['4'] == False and c16['5'] == False and c16['6'] == False and c16['7'] == False and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 1
     elif e16do == True and c16['1'] == False and c16['2'] == True and c16['3'] == False and c16['4'] == False and c16['5'] == False and c16['6'] == False and c16['7'] == False and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 2
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == True and c16['4'] == False and c16['5'] == False and c16['6'] == False and c16['7'] == False and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 3
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == False and c16['4'] == True and c16['5'] == False and c16['6'] == False and c16['7'] == False and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][6] = 4
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == False and c16['4'] == False and c16['5'] == True and c16['6'] == False and c16['7'] == False and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 5
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == False and c16['4'] == False and c16['5'] == False and c16['6'] == True and c16['7'] == False and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 6
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == False and c16['4'] == False and c16['5'] == False and c16['6'] == False and c16['7'] == True and c16['8'] == False and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 7
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == False and c16['4'] == False and c16['5'] == False and c16['6'] == False and c16['7'] == False and c16['8'] == True and c16['9'] == False:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 8
     elif e16do == True and c16['1'] == False and c16['2'] == False and c16['3'] == False and c16['4'] == False and c16['5'] == False and c16['6'] == False and c16['7'] == False and c16['8'] == False and c16['9'] == True:
-        e16do == False
+        e16do = False
         solvednums[0][5] = 9     
     else:
         if solvednums[0][5] == 1:
@@ -2769,31 +2768,31 @@ def solve():
         e17do = False
         sleep(1)
     elif e17do == True and c17['1'] == True and c17['2'] == False and c17['3'] == False and c17['4'] == False and c17['5'] == False and c17['6'] == False and c17['7'] == False and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 1
     elif e17do == True and c17['1'] == False and c17['2'] == True and c17['3'] == False and c17['4'] == False and c17['5'] == False and c17['6'] == False and c17['7'] == False and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 2
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == True and c17['4'] == False and c17['5'] == False and c17['6'] == False and c17['7'] == False and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 3
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == False and c17['4'] == True and c17['5'] == False and c17['6'] == False and c17['7'] == False and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 4
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == False and c17['4'] == False and c17['5'] == True and c17['6'] == False and c17['7'] == False and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 5
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == False and c17['4'] == False and c17['5'] == False and c17['6'] == True and c17['7'] == False and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 6
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == False and c17['4'] == False and c17['5'] == False and c17['6'] == False and c17['7'] == True and c17['8'] == False and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 7
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == False and c17['4'] == False and c17['5'] == False and c17['6'] == False and c17['7'] == False and c17['8'] == True and c17['9'] == False:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 8
     elif e17do == True and c17['1'] == False and c17['2'] == False and c17['3'] == False and c17['4'] == False and c17['5'] == False and c17['6'] == False and c17['7'] == False and c17['8'] == False and c17['9'] == True:
-        e17do == False
+        e17do = False
         solvednums[0][6] = 9
     else:
         if solvednums[0][6] == 1:
@@ -2990,31 +2989,31 @@ def solve():
         e18do = False
         sleep(1)
     elif e18do == True and c18['1'] == True and c18['2'] == False and c18['3'] == False and c18['4'] == False and c18['5'] == False and c18['6'] == False and c18['7'] == False and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 1
     elif e18do == True and c18['1'] == False and c18['2'] == True and c18['3'] == False and c18['4'] == False and c18['5'] == False and c18['6'] == False and c18['7'] == False and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 2
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == True and c18['4'] == False and c18['5'] == False and c18['6'] == False and c18['7'] == False and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 3
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == False and c18['4'] == True and c18['5'] == False and c18['6'] == False and c18['7'] == False and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 4
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == False and c18['4'] == False and c18['5'] == True and c18['6'] == False and c18['7'] == False and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 5
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == False and c18['4'] == False and c18['5'] == False and c18['6'] == True and c18['7'] == False and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 6
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == False and c18['4'] == False and c18['5'] == False and c18['6'] == False and c18['7'] == True and c18['8'] == False and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 7
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == False and c18['4'] == False and c18['5'] == False and c18['6'] == False and c18['7'] == False and c18['8'] == True and c18['9'] == False:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 8
     elif e18do == True and c18['1'] == False and c18['2'] == False and c18['3'] == False and c18['4'] == False and c18['5'] == False and c18['6'] == False and c18['7'] == False and c18['8'] == False and c18['9'] == True:
-        e18do == False
+        e18do = False
         solvednums[0][7] = 9
     else:
         if solvednums[0][7] == 1:
@@ -3211,31 +3210,31 @@ def solve():
         e19do = False
         sleep(1)
     elif e19do == True and c19['1'] == True and c19['2'] == False and c19['3'] == False and c19['4'] == False and c19['5'] == False and c19['6'] == False and c19['7'] == False and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 1
     elif e19do == True and c19['1'] == False and c19['2'] == True and c19['3'] == False and c19['4'] == False and c19['5'] == False and c19['6'] == False and c19['7'] == False and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 2
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == True and c19['4'] == False and c19['5'] == False and c19['6'] == False and c19['7'] == False and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 3
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == False and c19['4'] == True and c19['5'] == False and c19['6'] == False and c19['7'] == False and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 4
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == False and c19['4'] == False and c19['5'] == True and c19['6'] == False and c19['7'] == False and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 5
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == False and c19['4'] == False and c19['5'] == False and c19['6'] == True and c19['7'] == False and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 6
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == False and c19['4'] == False and c19['5'] == False and c19['6'] == False and c19['7'] == True and c19['8'] == False and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 7
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == False and c19['4'] == False and c19['5'] == False and c19['6'] == False and c19['7'] == False and c19['8'] == True and c19['9'] == False:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 8
     elif e19do == True and c19['1'] == False and c19['2'] == False and c19['3'] == False and c19['4'] == False and c19['5'] == False and c19['6'] == False and c19['7'] == False and c19['8'] == False and c19['9'] == True:
-        e19do == False
+        e19do = False
         solvednums[0][8] = 9
     else:
         if solvednums[0][8] == 1:
@@ -3432,31 +3431,31 @@ def solve():
         e21do = False
         sleep(1)
     elif e21do == True and c21['1'] == True and c21['2'] == False and c21['3'] == False and c21['4'] == False and c21['5'] == False and c21['6'] == False and c21['7'] == False and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 1
     elif e21do == True and c21['1'] == False and c21['2'] == True and c21['3'] == False and c21['4'] == False and c21['5'] == False and c21['6'] == False and c21['7'] == False and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 2
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == True and c21['4'] == False and c21['5'] == False and c21['6'] == False and c21['7'] == False and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 3
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == False and c21['4'] == True and c21['5'] == False and c21['6'] == False and c21['7'] == False and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 4
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == False and c21['4'] == False and c21['5'] == True and c21['6'] == False and c21['7'] == False and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 5
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == False and c21['4'] == False and c21['5'] == False and c21['6'] == True and c21['7'] == False and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 6
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == False and c21['4'] == False and c21['5'] == False and c21['6'] == False and c21['7'] == True and c21['8'] == False and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 7
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == False and c21['4'] == False and c21['5'] == False and c21['6'] == False and c21['7'] == False and c21['8'] == True and c21['9'] == False:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 8
     elif e21do == True and c21['1'] == False and c21['2'] == False and c21['3'] == False and c21['4'] == False and c21['5'] == False and c21['6'] == False and c21['7'] == False and c21['8'] == False and c21['9'] == True:
-        e21do == False
+        e21do = False
         solvednums[1][0] = 9
     else:
         if solvednums[1][0] == 1:
@@ -3671,31 +3670,31 @@ def solve():
         e22do = False
         sleep(1)
     elif e22do == True and c22['1'] == True and c22['2'] == False and c22['3'] == False and c22['4'] == False and c22['5'] == False and c22['6'] == False and c22['7'] == False and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 1
     elif e22do == True and c22['1'] == False and c22['2'] == True and c22['3'] == False and c22['4'] == False and c22['5'] == False and c22['6'] == False and c22['7'] == False and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 2
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == True and c22['4'] == False and c22['5'] == False and c22['6'] == False and c22['7'] == False and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 3
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == False and c22['4'] == True and c22['5'] == False and c22['6'] == False and c22['7'] == False and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 4
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == False and c22['4'] == False and c22['5'] == True and c22['6'] == False and c22['7'] == False and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 5
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == False and c22['4'] == False and c22['5'] == False and c22['6'] == True and c22['7'] == False and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 6
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == False and c22['4'] == False and c22['5'] == False and c22['6'] == False and c22['7'] == True and c22['8'] == False and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 7
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == False and c22['4'] == False and c22['5'] == False and c22['6'] == False and c22['7'] == False and c22['8'] == True and c22['9'] == False:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 8
     elif e22do == True and c22['1'] == False and c22['2'] == False and c22['3'] == False and c22['4'] == False and c22['5'] == False and c22['6'] == False and c22['7'] == False and c22['8'] == False and c22['9'] == True:
-        e22do == False
+        e22do = False
         solvednums[1][1] = 9
     else:
         if solvednums[1][1] == 1:
@@ -3892,31 +3891,31 @@ def solve():
         e23do = False
         sleep(1)
     elif e23do == True and c23['1'] == True and c23['2'] == False and c23['3'] == False and c23['4'] == False and c23['5'] == False and c23['6'] == False and c23['7'] == False and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 1
     elif e23do == True and c23['1'] == False and c23['2'] == True and c23['3'] == False and c23['4'] == False and c23['5'] == False and c23['6'] == False and c23['7'] == False and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 2
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == True and c23['4'] == False and c23['5'] == False and c23['6'] == False and c23['7'] == False and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 3
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == False and c23['4'] == True and c23['5'] == False and c23['6'] == False and c23['7'] == False and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 4
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == False and c23['4'] == False and c23['5'] == True and c23['6'] == False and c23['7'] == False and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 5
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == False and c23['4'] == False and c23['5'] == False and c23['6'] == True and c23['7'] == False and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 6
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == False and c23['4'] == False and c23['5'] == False and c23['6'] == False and c23['7'] == True and c23['8'] == False and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 7
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == False and c23['4'] == False and c23['5'] == False and c23['6'] == False and c23['7'] == False and c23['8'] == True and c23['9'] == False:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 8
     elif e23do == True and c23['1'] == False and c23['2'] == False and c23['3'] == False and c23['4'] == False and c23['5'] == False and c23['6'] == False and c23['7'] == False and c23['8'] == False and c23['9'] == True:
-        e23do == False
+        e23do = False
         solvednums[1][2] = 9
     else:
         if solvednums[1][2] == 1:
@@ -4113,31 +4112,31 @@ def solve():
         e24do = False
         sleep(1)
     elif e24do == True and c24['1'] == True and c24['2'] == False and c24['3'] == False and c24['4'] == False and c24['5'] == False and c24['6'] == False and c24['7'] == False and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 1
     elif e24do == True and c24['1'] == False and c24['2'] == True and c24['3'] == False and c24['4'] == False and c24['5'] == False and c24['6'] == False and c24['7'] == False and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 2
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == True and c24['4'] == False and c24['5'] == False and c24['6'] == False and c24['7'] == False and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 3
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == False and c24['4'] == True and c24['5'] == False and c24['6'] == False and c24['7'] == False and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 4
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == False and c24['4'] == False and c24['5'] == True and c24['6'] == False and c24['7'] == False and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 5
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == False and c24['4'] == False and c24['5'] == False and c24['6'] == True and c24['7'] == False and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 6
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == False and c24['4'] == False and c24['5'] == False and c24['6'] == False and c24['7'] == True and c24['8'] == False and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 7
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == False and c24['4'] == False and c24['5'] == False and c24['6'] == False and c24['7'] == False and c24['8'] == True and c24['9'] == False:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 8
     elif e24do == True and c24['1'] == False and c24['2'] == False and c24['3'] == False and c24['4'] == False and c24['5'] == False and c24['6'] == False and c24['7'] == False and c24['8'] == False and c24['9'] == True:
-        e24do == False
+        e24do = False
         solvednums[1][3] = 9
     else:
         if solvednums[1][3] == 1:
@@ -4334,31 +4333,31 @@ def solve():
         e25do = False
         sleep(1)
     elif e25do == True and c25['1'] == True and c25['2'] == False and c25['3'] == False and c25['4'] == False and c25['5'] == False and c25['6'] == False and c25['7'] == False and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 1
     elif e25do == True and c25['1'] == False and c25['2'] == True and c25['3'] == False and c25['4'] == False and c25['5'] == False and c25['6'] == False and c25['7'] == False and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 2
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == True and c25['4'] == False and c25['5'] == False and c25['6'] == False and c25['7'] == False and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 3
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == False and c25['4'] == True and c25['5'] == False and c25['6'] == False and c25['7'] == False and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 4
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == False and c25['4'] == False and c25['5'] == True and c25['6'] == False and c25['7'] == False and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 5
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == False and c25['4'] == False and c25['5'] == False and c25['6'] == True and c25['7'] == False and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 6
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == False and c25['4'] == False and c25['5'] == False and c25['6'] == False and c25['7'] == True and c25['8'] == False and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 7
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == False and c25['4'] == False and c25['5'] == False and c25['6'] == False and c25['7'] == False and c25['8'] == True and c25['9'] == False:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 8
     elif e25do == True and c25['1'] == False and c25['2'] == False and c25['3'] == False and c25['4'] == False and c25['5'] == False and c25['6'] == False and c25['7'] == False and c25['8'] == False and c25['9'] == True:
-        e25do == False
+        e25do = False
         solvednums[1][4] = 9
     else:
         if solvednums[1][4] == 1:
@@ -4555,31 +4554,31 @@ def solve():
         e26do = False
         sleep(1)
     elif e26do == True and c26['1'] == True and c26['2'] == False and c26['3'] == False and c26['4'] == False and c26['5'] == False and c26['6'] == False and c26['7'] == False and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 1
     elif e26do == True and c26['1'] == False and c26['2'] == True and c26['3'] == False and c26['4'] == False and c26['5'] == False and c26['6'] == False and c26['7'] == False and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 2
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == True and c26['4'] == False and c26['5'] == False and c26['6'] == False and c26['7'] == False and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 3
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == False and c26['4'] == True and c26['5'] == False and c26['6'] == False and c26['7'] == False and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][6] = 4
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == False and c26['4'] == False and c26['5'] == True and c26['6'] == False and c26['7'] == False and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 5
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == False and c26['4'] == False and c26['5'] == False and c26['6'] == True and c26['7'] == False and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 6
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == False and c26['4'] == False and c26['5'] == False and c26['6'] == False and c26['7'] == True and c26['8'] == False and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 7
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == False and c26['4'] == False and c26['5'] == False and c26['6'] == False and c26['7'] == False and c26['8'] == True and c26['9'] == False:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 8
     elif e26do == True and c26['1'] == False and c26['2'] == False and c26['3'] == False and c26['4'] == False and c26['5'] == False and c26['6'] == False and c26['7'] == False and c26['8'] == False and c26['9'] == True:
-        e26do == False
+        e26do = False
         solvednums[1][5] = 9     
     else:
         if solvednums[1][5] == 1:
@@ -4776,31 +4775,31 @@ def solve():
         e27do = False
         sleep(1)
     elif e27do == True and c27['1'] == True and c27['2'] == False and c27['3'] == False and c27['4'] == False and c27['5'] == False and c27['6'] == False and c27['7'] == False and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 1
     elif e27do == True and c27['1'] == False and c27['2'] == True and c27['3'] == False and c27['4'] == False and c27['5'] == False and c27['6'] == False and c27['7'] == False and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 2
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == True and c27['4'] == False and c27['5'] == False and c27['6'] == False and c27['7'] == False and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 3
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == False and c27['4'] == True and c27['5'] == False and c27['6'] == False and c27['7'] == False and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 4
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == False and c27['4'] == False and c27['5'] == True and c27['6'] == False and c27['7'] == False and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 5
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == False and c27['4'] == False and c27['5'] == False and c27['6'] == True and c27['7'] == False and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 6
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == False and c27['4'] == False and c27['5'] == False and c27['6'] == False and c27['7'] == True and c27['8'] == False and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 7
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == False and c27['4'] == False and c27['5'] == False and c27['6'] == False and c27['7'] == False and c27['8'] == True and c27['9'] == False:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 8
     elif e27do == True and c27['1'] == False and c27['2'] == False and c27['3'] == False and c27['4'] == False and c27['5'] == False and c27['6'] == False and c27['7'] == False and c27['8'] == False and c27['9'] == True:
-        e27do == False
+        e27do = False
         solvednums[1][6] = 9
     else:
         if solvednums[1][6] == 1:
@@ -4997,31 +4996,31 @@ def solve():
         e28do = False
         sleep(1)
     elif e28do == True and c28['1'] == True and c28['2'] == False and c28['3'] == False and c28['4'] == False and c28['5'] == False and c28['6'] == False and c28['7'] == False and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 1
     elif e28do == True and c28['1'] == False and c28['2'] == True and c28['3'] == False and c28['4'] == False and c28['5'] == False and c28['6'] == False and c28['7'] == False and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 2
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == True and c28['4'] == False and c28['5'] == False and c28['6'] == False and c28['7'] == False and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 3
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == False and c28['4'] == True and c28['5'] == False and c28['6'] == False and c28['7'] == False and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 4
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == False and c28['4'] == False and c28['5'] == True and c28['6'] == False and c28['7'] == False and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 5
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == False and c28['4'] == False and c28['5'] == False and c28['6'] == True and c28['7'] == False and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 6
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == False and c28['4'] == False and c28['5'] == False and c28['6'] == False and c28['7'] == True and c28['8'] == False and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 7
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == False and c28['4'] == False and c28['5'] == False and c28['6'] == False and c28['7'] == False and c28['8'] == True and c28['9'] == False:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 8
     elif e28do == True and c28['1'] == False and c28['2'] == False and c28['3'] == False and c28['4'] == False and c28['5'] == False and c28['6'] == False and c28['7'] == False and c28['8'] == False and c28['9'] == True:
-        e28do == False
+        e28do = False
         solvednums[1][7] = 9
     else:
         if solvednums[1][7] == 1:
@@ -5218,31 +5217,31 @@ def solve():
         e29do = False
         sleep(1)
     elif e29do == True and c29['1'] == True and c29['2'] == False and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 1
     elif e29do == True and c29['1'] == False and c29['2'] == True and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 2
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == True and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 3
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == True and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 4
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == False and c29['5'] == True and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 5
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == True and c29['7'] == False and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 6
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == True and c29['8'] == False and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 7
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == True and c29['9'] == False:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 8
     elif e29do == True and c29['1'] == False and c29['2'] == False and c29['3'] == False and c29['4'] == False and c29['5'] == False and c29['6'] == False and c29['7'] == False and c29['8'] == False and c29['9'] == True:
-        e29do == False
+        e29do = False
         solvednums[1][8] = 9
     else:
         if solvednums[1][8] == 1:
@@ -5439,31 +5438,31 @@ def solve():
         e31do = False
         sleep(1)
     elif e31do == True and c31['1'] == True and c31['2'] == False and c31['3'] == False and c31['4'] == False and c31['5'] == False and c31['6'] == False and c31['7'] == False and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 1
     elif e31do == True and c31['1'] == False and c31['2'] == True and c31['3'] == False and c31['4'] == False and c31['5'] == False and c31['6'] == False and c31['7'] == False and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 2
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == True and c31['4'] == False and c31['5'] == False and c31['6'] == False and c31['7'] == False and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 3
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == False and c31['4'] == True and c31['5'] == False and c31['6'] == False and c31['7'] == False and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 4
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == False and c31['4'] == False and c31['5'] == True and c31['6'] == False and c31['7'] == False and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 5
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == False and c31['4'] == False and c31['5'] == False and c31['6'] == True and c31['7'] == False and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 6
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == False and c31['4'] == False and c31['5'] == False and c31['6'] == False and c31['7'] == True and c31['8'] == False and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 7
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == False and c31['4'] == False and c31['5'] == False and c31['6'] == False and c31['7'] == False and c31['8'] == True and c31['9'] == False:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 8
     elif e31do == True and c31['1'] == False and c31['2'] == False and c31['3'] == False and c31['4'] == False and c31['5'] == False and c31['6'] == False and c31['7'] == False and c31['8'] == False and c31['9'] == True:
-        e31do == False
+        e31do = False
         solvednums[2][0] = 9
     else:
         if solvednums[2][0] == 1:
@@ -5678,31 +5677,31 @@ def solve():
         e32do = False
         sleep(1)
     elif e32do == True and c32['1'] == True and c32['2'] == False and c32['3'] == False and c32['4'] == False and c32['5'] == False and c32['6'] == False and c32['7'] == False and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 1
     elif e32do == True and c32['1'] == False and c32['2'] == True and c32['3'] == False and c32['4'] == False and c32['5'] == False and c32['6'] == False and c32['7'] == False and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 2
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == True and c32['4'] == False and c32['5'] == False and c32['6'] == False and c32['7'] == False and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 3
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == False and c32['4'] == True and c32['5'] == False and c32['6'] == False and c32['7'] == False and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 4
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == False and c32['4'] == False and c32['5'] == True and c32['6'] == False and c32['7'] == False and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 5
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == False and c32['4'] == False and c32['5'] == False and c32['6'] == True and c32['7'] == False and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 6
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == False and c32['4'] == False and c32['5'] == False and c32['6'] == False and c32['7'] == True and c32['8'] == False and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 7
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == False and c32['4'] == False and c32['5'] == False and c32['6'] == False and c32['7'] == False and c32['8'] == True and c32['9'] == False:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 8
     elif e32do == True and c32['1'] == False and c32['2'] == False and c32['3'] == False and c32['4'] == False and c32['5'] == False and c32['6'] == False and c32['7'] == False and c32['8'] == False and c32['9'] == True:
-        e32do == False
+        e32do = False
         solvednums[2][2] = 9
     else:
         if solvednums[2][2] == 1:
@@ -5899,31 +5898,31 @@ def solve():
         e33do = False
         sleep(1)
     elif e33do == True and c33['1'] == True and c33['2'] == False and c33['3'] == False and c33['4'] == False and c33['5'] == False and c33['6'] == False and c33['7'] == False and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 1
     elif e33do == True and c33['1'] == False and c33['2'] == True and c33['3'] == False and c33['4'] == False and c33['5'] == False and c33['6'] == False and c33['7'] == False and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 2
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == True and c33['4'] == False and c33['5'] == False and c33['6'] == False and c33['7'] == False and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 3
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == False and c33['4'] == True and c33['5'] == False and c33['6'] == False and c33['7'] == False and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 4
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == False and c33['4'] == False and c33['5'] == True and c33['6'] == False and c33['7'] == False and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 5
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == False and c33['4'] == False and c33['5'] == False and c33['6'] == True and c33['7'] == False and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 6
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == False and c33['4'] == False and c33['5'] == False and c33['6'] == False and c33['7'] == True and c33['8'] == False and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 7
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == False and c33['4'] == False and c33['5'] == False and c33['6'] == False and c33['7'] == False and c33['8'] == True and c33['9'] == False:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 8
     elif e33do == True and c33['1'] == False and c33['2'] == False and c33['3'] == False and c33['4'] == False and c33['5'] == False and c33['6'] == False and c33['7'] == False and c33['8'] == False and c33['9'] == True:
-        e33do == False
+        e33do = False
         solvednums[2][2] = 9
     else:
         if solvednums[2][2] == 1:
@@ -6120,31 +6119,31 @@ def solve():
         e34do = False
         sleep(1)
     elif e34do == True and c34['1'] == True and c34['2'] == False and c34['3'] == False and c34['4'] == False and c34['5'] == False and c34['6'] == False and c34['7'] == False and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 1
     elif e34do == True and c34['1'] == False and c34['2'] == True and c34['3'] == False and c34['4'] == False and c34['5'] == False and c34['6'] == False and c34['7'] == False and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 2
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == True and c34['4'] == False and c34['5'] == False and c34['6'] == False and c34['7'] == False and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 3
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == False and c34['4'] == True and c34['5'] == False and c34['6'] == False and c34['7'] == False and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 4
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == False and c34['4'] == False and c34['5'] == True and c34['6'] == False and c34['7'] == False and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 5
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == False and c34['4'] == False and c34['5'] == False and c34['6'] == True and c34['7'] == False and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 6
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == False and c34['4'] == False and c34['5'] == False and c34['6'] == False and c34['7'] == True and c34['8'] == False and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 7
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == False and c34['4'] == False and c34['5'] == False and c34['6'] == False and c34['7'] == False and c34['8'] == True and c34['9'] == False:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 8
     elif e34do == True and c34['1'] == False and c34['2'] == False and c34['3'] == False and c34['4'] == False and c34['5'] == False and c34['6'] == False and c34['7'] == False and c34['8'] == False and c34['9'] == True:
-        e34do == False
+        e34do = False
         solvednums[2][3] = 9
     else:
         if solvednums[2][3] == 1:
@@ -6341,31 +6340,31 @@ def solve():
         e35do = False
         sleep(1)
     elif e35do == True and c35['1'] == True and c35['2'] == False and c35['3'] == False and c35['4'] == False and c35['5'] == False and c35['6'] == False and c35['7'] == False and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 1
     elif e35do == True and c35['1'] == False and c35['2'] == True and c35['3'] == False and c35['4'] == False and c35['5'] == False and c35['6'] == False and c35['7'] == False and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 2
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == True and c35['4'] == False and c35['5'] == False and c35['6'] == False and c35['7'] == False and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 3
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == False and c35['4'] == True and c35['5'] == False and c35['6'] == False and c35['7'] == False and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 4
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == False and c35['4'] == False and c35['5'] == True and c35['6'] == False and c35['7'] == False and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 5
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == False and c35['4'] == False and c35['5'] == False and c35['6'] == True and c35['7'] == False and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 6
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == False and c35['4'] == False and c35['5'] == False and c35['6'] == False and c35['7'] == True and c35['8'] == False and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 7
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == False and c35['4'] == False and c35['5'] == False and c35['6'] == False and c35['7'] == False and c35['8'] == True and c35['9'] == False:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 8
     elif e35do == True and c35['1'] == False and c35['2'] == False and c35['3'] == False and c35['4'] == False and c35['5'] == False and c35['6'] == False and c35['7'] == False and c35['8'] == False and c35['9'] == True:
-        e35do == False
+        e35do = False
         solvednums[2][4] = 9
     else:
         if solvednums[2][4] == 1:
@@ -6562,31 +6561,31 @@ def solve():
         e36do = False
         sleep(1)
     elif e36do == True and c36['1'] == True and c36['2'] == False and c36['3'] == False and c36['4'] == False and c36['5'] == False and c36['6'] == False and c36['7'] == False and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 1
     elif e36do == True and c36['1'] == False and c36['2'] == True and c36['3'] == False and c36['4'] == False and c36['5'] == False and c36['6'] == False and c36['7'] == False and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 2
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == True and c36['4'] == False and c36['5'] == False and c36['6'] == False and c36['7'] == False and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 3
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == False and c36['4'] == True and c36['5'] == False and c36['6'] == False and c36['7'] == False and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][6] = 4
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == False and c36['4'] == False and c36['5'] == True and c36['6'] == False and c36['7'] == False and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 5
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == False and c36['4'] == False and c36['5'] == False and c36['6'] == True and c36['7'] == False and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 6
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == False and c36['4'] == False and c36['5'] == False and c36['6'] == False and c36['7'] == True and c36['8'] == False and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 7
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == False and c36['4'] == False and c36['5'] == False and c36['6'] == False and c36['7'] == False and c36['8'] == True and c36['9'] == False:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 8
     elif e36do == True and c36['1'] == False and c36['2'] == False and c36['3'] == False and c36['4'] == False and c36['5'] == False and c36['6'] == False and c36['7'] == False and c36['8'] == False and c36['9'] == True:
-        e36do == False
+        e36do = False
         solvednums[2][5] = 9     
     else:
         if solvednums[2][5] == 1:
@@ -6783,31 +6782,31 @@ def solve():
         e37do = False
         sleep(1)
     elif e37do == True and c37['1'] == True and c37['2'] == False and c37['3'] == False and c37['4'] == False and c37['5'] == False and c37['6'] == False and c37['7'] == False and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 1
     elif e37do == True and c37['1'] == False and c37['2'] == True and c37['3'] == False and c37['4'] == False and c37['5'] == False and c37['6'] == False and c37['7'] == False and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 2
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == True and c37['4'] == False and c37['5'] == False and c37['6'] == False and c37['7'] == False and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 3
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == False and c37['4'] == True and c37['5'] == False and c37['6'] == False and c37['7'] == False and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 4
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == False and c37['4'] == False and c37['5'] == True and c37['6'] == False and c37['7'] == False and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 5
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == False and c37['4'] == False and c37['5'] == False and c37['6'] == True and c37['7'] == False and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 6
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == False and c37['4'] == False and c37['5'] == False and c37['6'] == False and c37['7'] == True and c37['8'] == False and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 7
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == False and c37['4'] == False and c37['5'] == False and c37['6'] == False and c37['7'] == False and c37['8'] == True and c37['9'] == False:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 8
     elif e37do == True and c37['1'] == False and c37['2'] == False and c37['3'] == False and c37['4'] == False and c37['5'] == False and c37['6'] == False and c37['7'] == False and c37['8'] == False and c37['9'] == True:
-        e37do == False
+        e37do = False
         solvednums[2][6] = 9
     else:
         if solvednums[2][6] == 1:
@@ -7004,31 +7003,31 @@ def solve():
         e38do = False
         sleep(1)
     elif e38do == True and c38['1'] == True and c38['2'] == False and c38['3'] == False and c38['4'] == False and c38['5'] == False and c38['6'] == False and c38['7'] == False and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 1
     elif e38do == True and c38['1'] == False and c38['2'] == True and c38['3'] == False and c38['4'] == False and c38['5'] == False and c38['6'] == False and c38['7'] == False and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 2
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == True and c38['4'] == False and c38['5'] == False and c38['6'] == False and c38['7'] == False and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 3
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == False and c38['4'] == True and c38['5'] == False and c38['6'] == False and c38['7'] == False and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 4
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == False and c38['4'] == False and c38['5'] == True and c38['6'] == False and c38['7'] == False and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 5
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == False and c38['4'] == False and c38['5'] == False and c38['6'] == True and c38['7'] == False and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 6
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == False and c38['4'] == False and c38['5'] == False and c38['6'] == False and c38['7'] == True and c38['8'] == False and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 7
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == False and c38['4'] == False and c38['5'] == False and c38['6'] == False and c38['7'] == False and c38['8'] == True and c38['9'] == False:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 8
     elif e38do == True and c38['1'] == False and c38['2'] == False and c38['3'] == False and c38['4'] == False and c38['5'] == False and c38['6'] == False and c38['7'] == False and c38['8'] == False and c38['9'] == True:
-        e38do == False
+        e38do = False
         solvednums[2][7] = 9
     else:
         if solvednums[2][7] == 1:
@@ -7225,31 +7224,31 @@ def solve():
         e39do = False
         sleep(1)
     elif e39do == True and c39['1'] == True and c39['2'] == False and c39['3'] == False and c39['4'] == False and c39['5'] == False and c39['6'] == False and c39['7'] == False and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 1
     elif e39do == True and c39['1'] == False and c39['2'] == True and c39['3'] == False and c39['4'] == False and c39['5'] == False and c39['6'] == False and c39['7'] == False and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 2
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == True and c39['4'] == False and c39['5'] == False and c39['6'] == False and c39['7'] == False and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 3
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == False and c39['4'] == True and c39['5'] == False and c39['6'] == False and c39['7'] == False and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 4
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == False and c39['4'] == False and c39['5'] == True and c39['6'] == False and c39['7'] == False and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 5
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == False and c39['4'] == False and c39['5'] == False and c39['6'] == True and c39['7'] == False and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 6
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == False and c39['4'] == False and c39['5'] == False and c39['6'] == False and c39['7'] == True and c39['8'] == False and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 7
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == False and c39['4'] == False and c39['5'] == False and c39['6'] == False and c39['7'] == False and c39['8'] == True and c39['9'] == False:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 8
     elif e39do == True and c39['1'] == False and c39['2'] == False and c39['3'] == False and c39['4'] == False and c39['5'] == False and c39['6'] == False and c39['7'] == False and c39['8'] == False and c39['9'] == True:
-        e39do == False
+        e39do = False
         solvednums[2][8] = 9
     else:
         if solvednums[2][8] == 1:
@@ -7446,31 +7445,31 @@ def solve():
         e41do = False
         sleep(1)
     elif e41do == True and c41['1'] == True and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c31['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 1
     elif e41do == True and c41['1'] == False and c41['2'] == True and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 2
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == True and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 3
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == False and c41['4'] == True and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 4
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == True and c41['6'] == False and c41['7'] == False and c41['8'] == False and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 5
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == True and c41['7'] == False and c41['8'] == False and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 6
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == True and c41['8'] == False and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 7
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == True and c41['9'] == False:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 8
     elif e41do == True and c41['1'] == False and c41['2'] == False and c41['3'] == False and c41['4'] == False and c41['5'] == False and c41['6'] == False and c41['7'] == False and c41['8'] == False and c41['9'] == True:
-        e41do == False
+        e41do = False
         solvednums[3][0] = 9
     else:
         if solvednums[3][0] == 1:
@@ -7687,31 +7686,31 @@ def solve():
         e42do = False
         sleep(1)
     elif e42do == True and c42['1'] == True and c42['2'] == False and c42['3'] == False and c42['4'] == False and c42['5'] == False and c42['6'] == False and c42['7'] == False and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 1
     elif e42do == True and c42['1'] == False and c42['2'] == True and c42['3'] == False and c42['4'] == False and c42['5'] == False and c42['6'] == False and c42['7'] == False and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 2
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == True and c42['4'] == False and c42['5'] == False and c42['6'] == False and c42['7'] == False and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 3
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == False and c42['4'] == True and c42['5'] == False and c42['6'] == False and c42['7'] == False and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 4
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == False and c42['4'] == False and c42['5'] == True and c42['6'] == False and c42['7'] == False and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 5
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == False and c42['4'] == False and c42['5'] == False and c42['6'] == True and c42['7'] == False and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 6
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == False and c42['4'] == False and c42['5'] == False and c42['6'] == False and c42['7'] == True and c42['8'] == False and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 7
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == False and c42['4'] == False and c42['5'] == False and c42['6'] == False and c42['7'] == False and c42['8'] == True and c42['9'] == False:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 8
     elif e42do == True and c42['1'] == False and c42['2'] == False and c42['3'] == False and c42['4'] == False and c42['5'] == False and c42['6'] == False and c42['7'] == False and c42['8'] == False and c42['9'] == True:
-        e42do == False
+        e42do = False
         solvednums[3][1] = 9
     else:
         if solvednums[3][1] == 1:
@@ -7908,31 +7907,31 @@ def solve():
         e43do = False
         sleep(1)
     elif e43do == True and c43['1'] == True and c43['2'] == False and c43['3'] == False and c43['4'] == False and c43['5'] == False and c43['6'] == False and c43['7'] == False and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 1
     elif e43do == True and c43['1'] == False and c43['2'] == True and c43['3'] == False and c43['4'] == False and c43['5'] == False and c43['6'] == False and c43['7'] == False and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 2
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == True and c43['4'] == False and c43['5'] == False and c43['6'] == False and c43['7'] == False and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 3
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == False and c43['4'] == True and c43['5'] == False and c43['6'] == False and c43['7'] == False and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 4
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == False and c43['4'] == False and c43['5'] == True and c43['6'] == False and c43['7'] == False and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 5
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == False and c43['4'] == False and c43['5'] == False and c43['6'] == True and c43['7'] == False and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 6
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == False and c43['4'] == False and c43['5'] == False and c43['6'] == False and c43['7'] == True and c43['8'] == False and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 7
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == False and c43['4'] == False and c43['5'] == False and c43['6'] == False and c43['7'] == False and c43['8'] == True and c43['9'] == False:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 8
     elif e43do == True and c43['1'] == False and c43['2'] == False and c43['3'] == False and c43['4'] == False and c43['5'] == False and c43['6'] == False and c43['7'] == False and c43['8'] == False and c43['9'] == True:
-        e43do == False
+        e43do = False
         solvednums[3][2] = 9
     else:
         if solvednums[3][2] == 1:
@@ -8129,31 +8128,31 @@ def solve():
         e44do = False
         sleep(1)
     elif e44do == True and c44['1'] == True and c44['2'] == False and c44['3'] == False and c44['4'] == False and c44['5'] == False and c44['6'] == False and c44['7'] == False and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 1
     elif e44do == True and c44['1'] == False and c44['2'] == True and c44['3'] == False and c44['4'] == False and c44['5'] == False and c44['6'] == False and c44['7'] == False and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 2
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == True and c44['4'] == False and c44['5'] == False and c44['6'] == False and c44['7'] == False and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 3
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == False and c44['4'] == True and c44['5'] == False and c44['6'] == False and c44['7'] == False and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 4
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == False and c44['4'] == False and c44['5'] == True and c44['6'] == False and c44['7'] == False and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 5
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == False and c44['4'] == False and c44['5'] == False and c44['6'] == True and c44['7'] == False and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 6
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == False and c44['4'] == False and c44['5'] == False and c44['6'] == False and c44['7'] == True and c44['8'] == False and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 7
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == False and c44['4'] == False and c44['5'] == False and c44['6'] == False and c44['7'] == False and c44['8'] == True and c44['9'] == False:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 8
     elif e44do == True and c44['1'] == False and c44['2'] == False and c44['3'] == False and c44['4'] == False and c44['5'] == False and c44['6'] == False and c44['7'] == False and c44['8'] == False and c44['9'] == True:
-        e44do == False
+        e44do = False
         solvednums[3][3] = 9
     else:
         if solvednums[3][3] == 1:
@@ -8350,31 +8349,31 @@ def solve():
         e45do = False
         sleep(1)
     elif e45do == True and c45['1'] == True and c45['2'] == False and c45['3'] == False and c45['4'] == False and c45['5'] == False and c45['6'] == False and c45['7'] == False and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 1
     elif e45do == True and c45['1'] == False and c45['2'] == True and c45['3'] == False and c45['4'] == False and c45['5'] == False and c45['6'] == False and c45['7'] == False and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 2
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == True and c45['4'] == False and c45['5'] == False and c45['6'] == False and c45['7'] == False and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 3
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == False and c45['4'] == True and c45['5'] == False and c45['6'] == False and c45['7'] == False and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 4
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == False and c45['4'] == False and c45['5'] == True and c45['6'] == False and c45['7'] == False and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 5
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == False and c45['4'] == False and c45['5'] == False and c45['6'] == True and c45['7'] == False and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 6
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == False and c45['4'] == False and c45['5'] == False and c45['6'] == False and c45['7'] == True and c45['8'] == False and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 7
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == False and c45['4'] == False and c45['5'] == False and c45['6'] == False and c45['7'] == False and c45['8'] == True and c45['9'] == False:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 8
     elif e45do == True and c45['1'] == False and c45['2'] == False and c45['3'] == False and c45['4'] == False and c45['5'] == False and c45['6'] == False and c45['7'] == False and c45['8'] == False and c45['9'] == True:
-        e45do == False
+        e45do = False
         solvednums[3][4] = 9
     else:
         if solvednums[3][4] == 1:
@@ -8571,31 +8570,31 @@ def solve():
         e46do = False
         sleep(1)
     elif e46do == True and c46['1'] == True and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 1
     elif e46do == True and c46['1'] == False and c46['2'] == True and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 2
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == True and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 3
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == False and c46['4'] == True and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][6] = 4
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == True and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 5
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == True and c46['7'] == False and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 6
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == True and c46['8'] == False and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 7
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == True and c46['9'] == False:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 8
     elif e46do == True and c46['1'] == False and c46['2'] == False and c46['3'] == False and c46['4'] == False and c46['5'] == False and c46['6'] == False and c46['7'] == False and c46['8'] == False and c46['9'] == True:
-        e46do == False
+        e46do = False
         solvednums[3][5] = 9     
     else:
         if solvednums[3][5] == 1:
@@ -8792,31 +8791,31 @@ def solve():
         e47do = False
         sleep(1)
     elif e47do == True and c47['1'] == True and c47['2'] == False and c47['3'] == False and c47['4'] == False and c47['5'] == False and c47['6'] == False and c47['7'] == False and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 1
     elif e47do == True and c47['1'] == False and c47['2'] == True and c47['3'] == False and c47['4'] == False and c47['5'] == False and c47['6'] == False and c47['7'] == False and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 2
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == True and c47['4'] == False and c47['5'] == False and c47['6'] == False and c47['7'] == False and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 3
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == False and c47['4'] == True and c47['5'] == False and c47['6'] == False and c47['7'] == False and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 4
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == False and c47['4'] == False and c47['5'] == True and c47['6'] == False and c47['7'] == False and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 5
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == False and c47['4'] == False and c47['5'] == False and c47['6'] == True and c47['7'] == False and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 6
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == False and c47['4'] == False and c47['5'] == False and c47['6'] == False and c47['7'] == True and c47['8'] == False and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 7
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == False and c47['4'] == False and c47['5'] == False and c47['6'] == False and c47['7'] == False and c47['8'] == True and c47['9'] == False:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 8
     elif e47do == True and c47['1'] == False and c47['2'] == False and c47['3'] == False and c47['4'] == False and c47['5'] == False and c47['6'] == False and c47['7'] == False and c47['8'] == False and c47['9'] == True:
-        e47do == False
+        e47do = False
         solvednums[3][6] = 9
     else:
         if solvednums[3][6] == 1:
@@ -9013,31 +9012,31 @@ def solve():
         e48do = False
         sleep(1)
     elif e48do == True and c48['1'] == True and c48['2'] == False and c48['3'] == False and c48['4'] == False and c48['5'] == False and c48['6'] == False and c48['7'] == False and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 1
     elif e48do == True and c48['1'] == False and c48['2'] == True and c48['3'] == False and c48['4'] == False and c48['5'] == False and c48['6'] == False and c48['7'] == False and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 2
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == True and c48['4'] == False and c48['5'] == False and c48['6'] == False and c48['7'] == False and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 3
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == False and c48['4'] == True and c48['5'] == False and c48['6'] == False and c48['7'] == False and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 4
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == False and c48['4'] == False and c48['5'] == True and c48['6'] == False and c48['7'] == False and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 5
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == False and c48['4'] == False and c48['5'] == False and c48['6'] == True and c48['7'] == False and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 6
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == False and c48['4'] == False and c48['5'] == False and c48['6'] == False and c48['7'] == True and c48['8'] == False and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 7
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == False and c48['4'] == False and c48['5'] == False and c48['6'] == False and c48['7'] == False and c48['8'] == True and c48['9'] == False:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 8
     elif e48do == True and c48['1'] == False and c48['2'] == False and c48['3'] == False and c48['4'] == False and c48['5'] == False and c48['6'] == False and c48['7'] == False and c48['8'] == False and c48['9'] == True:
-        e48do == False
+        e48do = False
         solvednums[3][7] = 9
     else:
         if solvednums[3][7] == 1:
@@ -9234,31 +9233,31 @@ def solve():
         e49do = False
         sleep(1)
     elif e49do == True and c49['1'] == True and c49['2'] == False and c49['3'] == False and c49['4'] == False and c49['5'] == False and c49['6'] == False and c49['7'] == False and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 1
     elif e49do == True and c49['1'] == False and c49['2'] == True and c49['3'] == False and c49['4'] == False and c49['5'] == False and c49['6'] == False and c49['7'] == False and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 2
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == True and c49['4'] == False and c49['5'] == False and c49['6'] == False and c49['7'] == False and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 3
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == False and c49['4'] == True and c49['5'] == False and c49['6'] == False and c49['7'] == False and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 4
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == False and c49['4'] == False and c49['5'] == True and c49['6'] == False and c49['7'] == False and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 5
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == False and c49['4'] == False and c49['5'] == False and c49['6'] == True and c49['7'] == False and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 6
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == False and c49['4'] == False and c49['5'] == False and c49['6'] == False and c49['7'] == True and c49['8'] == False and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 7
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == False and c49['4'] == False and c49['5'] == False and c49['6'] == False and c49['7'] == False and c49['8'] == True and c49['9'] == False:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 8
     elif e49do == True and c49['1'] == False and c49['2'] == False and c49['3'] == False and c49['4'] == False and c49['5'] == False and c49['6'] == False and c49['7'] == False and c49['8'] == False and c49['9'] == True:
-        e49do == False
+        e49do = False
         solvednums[3][8] = 9
     else:
         if solvednums[3][8] == 1:
@@ -9455,31 +9454,31 @@ def solve():
         e51do = False
         sleep(1)
     elif e51do == True and c51['1'] == True and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 1
     elif e51do == True and c51['1'] == False and c51['2'] == True and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 2
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == True and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 3
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == True and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 4
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == True and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 5
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == True and c51['7'] == False and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 6
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == True and c51['8'] == False and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 7
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == True and c51['9'] == False:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 8
     elif e51do == True and c51['1'] == False and c51['2'] == False and c51['3'] == False and c51['4'] == False and c51['5'] == False and c51['6'] == False and c51['7'] == False and c51['8'] == False and c51['9'] == True:
-        e51do == False
+        e51do = False
         solvednums[4][0] = 9
     else:
         if solvednums[4][0] == 1:
@@ -9696,31 +9695,31 @@ def solve():
         e52do = False
         sleep(1)
     elif e52do == True and c52['1'] == True and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 1
     elif e52do == True and c52['1'] == False and c52['2'] == True and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 2
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == True and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 3
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == True and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 4
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == True and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 5
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == True and c52['7'] == False and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 6
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == True and c52['8'] == False and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 7
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == True and c52['9'] == False:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 8
     elif e52do == True and c52['1'] == False and c52['2'] == False and c52['3'] == False and c52['4'] == False and c52['5'] == False and c52['6'] == False and c52['7'] == False and c52['8'] == False and c52['9'] == True:
-        e52do == False
+        e52do = False
         solvednums[4][1] = 9
     else:
         if solvednums[4][1] == 1:
@@ -9917,31 +9916,31 @@ def solve():
         e53do = False
         sleep(1)
     elif e53do == True and c53['1'] == True and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 1
     elif e53do == True and c53['1'] == False and c53['2'] == True and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 2
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == True and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 3
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == True and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 4
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == True and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 5
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == True and c53['7'] == False and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 6
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == True and c53['8'] == False and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 7
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == True and c53['9'] == False:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 8
     elif e53do == True and c53['1'] == False and c53['2'] == False and c53['3'] == False and c53['4'] == False and c53['5'] == False and c53['6'] == False and c53['7'] == False and c53['8'] == False and c53['9'] == True:
-        e53do == False
+        e53do = False
         solvednums[4][2] = 9
     else:
         if solvednums[4][2] == 1:
@@ -10138,31 +10137,31 @@ def solve():
         e54do = False
         sleep(1)
     elif e54do == True and c54['1'] == True and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 1
     elif e54do == True and c54['1'] == False and c54['2'] == True and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 2
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == True and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 3
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == True and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 4
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == True and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 5
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == True and c54['7'] == False and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 6
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == True and c54['8'] == False and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 7
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == True and c54['9'] == False:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 8
     elif e54do == True and c54['1'] == False and c54['2'] == False and c54['3'] == False and c54['4'] == False and c54['5'] == False and c54['6'] == False and c54['7'] == False and c54['8'] == False and c54['9'] == True:
-        e54do == False
+        e54do = False
         solvednums[4][3] = 9
     else:
         if solvednums[4][3] == 1:
@@ -10359,31 +10358,31 @@ def solve():
         e55do = False
         sleep(1)
     elif e55do == True and c55['1'] == True and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 1
     elif e55do == True and c55['1'] == False and c55['2'] == True and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 2
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == True and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 3
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == True and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 4
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == True and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 5
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == True and c55['7'] == False and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 6
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == True and c55['8'] == False and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 7
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == True and c55['9'] == False:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 8
     elif e55do == True and c55['1'] == False and c55['2'] == False and c55['3'] == False and c55['4'] == False and c55['5'] == False and c55['6'] == False and c55['7'] == False and c55['8'] == False and c55['9'] == True:
-        e55do == False
+        e55do = False
         solvednums[4][4] = 9
     else:
         if solvednums[4][4] == 1:
@@ -10580,31 +10579,31 @@ def solve():
         e56do = False
         sleep(1)
     elif e56do == True and c56['1'] == True and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 1
     elif e56do == True and c56['1'] == False and c56['2'] == True and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 2
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == True and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 3
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == True and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][6] = 4
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == True and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 5
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == True and c56['7'] == False and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 6
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == True and c56['8'] == False and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 7
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == True and c56['9'] == False:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 8
     elif e56do == True and c56['1'] == False and c56['2'] == False and c56['3'] == False and c56['4'] == False and c56['5'] == False and c56['6'] == False and c56['7'] == False and c56['8'] == False and c56['9'] == True:
-        e56do == False
+        e56do = False
         solvednums[4][5] = 9     
     else:
         if solvednums[4][5] == 1:
@@ -10801,31 +10800,31 @@ def solve():
         e57do = False
         sleep(1)
     elif e57do == True and c57['1'] == True and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 1
     elif e57do == True and c57['1'] == False and c57['2'] == True and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 2
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == True and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 3
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == True and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 4
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == True and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 5
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == True and c57['7'] == False and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 6
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == True and c57['8'] == False and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 7
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == True and c57['9'] == False:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 8
     elif e57do == True and c57['1'] == False and c57['2'] == False and c57['3'] == False and c57['4'] == False and c57['5'] == False and c57['6'] == False and c57['7'] == False and c57['8'] == False and c57['9'] == True:
-        e57do == False
+        e57do = False
         solvednums[4][6] = 9
     else:
         if solvednums[4][6] == 1:
@@ -11022,31 +11021,31 @@ def solve():
         e58do = False
         sleep(1)
     elif e58do == True and c58['1'] == True and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 1
     elif e58do == True and c58['1'] == False and c58['2'] == True and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 2
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == True and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 3
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == True and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 4
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == True and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 5
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == True and c58['7'] == False and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 6
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == True and c58['8'] == False and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 7
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == True and c58['9'] == False:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 8
     elif e58do == True and c58['1'] == False and c58['2'] == False and c58['3'] == False and c58['4'] == False and c58['5'] == False and c58['6'] == False and c58['7'] == False and c58['8'] == False and c58['9'] == True:
-        e58do == False
+        e58do = False
         solvednums[4][7] = 9
     else:
         if solvednums[4][7] == 1:
@@ -11243,31 +11242,31 @@ def solve():
         e59do = False
         sleep(1)
     elif e59do == True and c59['1'] == True and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 1
     elif e59do == True and c59['1'] == False and c59['2'] == True and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 2
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == True and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 3
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == True and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 4
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == True and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 5
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == True and c59['7'] == False and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 6
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == True and c59['8'] == False and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 7
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == True and c59['9'] == False:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 8
     elif e59do == True and c59['1'] == False and c59['2'] == False and c59['3'] == False and c59['4'] == False and c59['5'] == False and c59['6'] == False and c59['7'] == False and c59['8'] == False and c59['9'] == True:
-        e59do == False
+        e59do = False
         solvednums[4][8] = 9
     else:
         if solvednums[4][8] == 1:
@@ -11464,31 +11463,31 @@ def solve():
         e61do = False
         sleep(1)
     elif e61do == True and c61['1'] == True and c61['2'] == False and c61['3'] == False and c61['4'] == False and c61['5'] == False and c61['6'] == False and c61['7'] == False and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 1
     elif e61do == True and c61['1'] == False and c61['2'] == True and c61['3'] == False and c61['4'] == False and c61['5'] == False and c61['6'] == False and c61['7'] == False and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 2
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == True and c61['4'] == False and c61['5'] == False and c61['6'] == False and c61['7'] == False and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 3
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == False and c61['4'] == True and c61['5'] == False and c61['6'] == False and c61['7'] == False and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 4
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == False and c61['4'] == False and c61['5'] == True and c61['6'] == False and c61['7'] == False and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 5
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == False and c61['4'] == False and c61['5'] == False and c61['6'] == True and c61['7'] == False and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 6
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == False and c61['4'] == False and c61['5'] == False and c61['6'] == False and c61['7'] == True and c61['8'] == False and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 7
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == False and c61['4'] == False and c61['5'] == False and c61['6'] == False and c61['7'] == False and c61['8'] == True and c61['9'] == False:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 8
     elif e61do == True and c61['1'] == False and c61['2'] == False and c61['3'] == False and c61['4'] == False and c61['5'] == False and c61['6'] == False and c61['7'] == False and c61['8'] == False and c61['9'] == True:
-        e61do == False
+        e61do = False
         solvednums[5][0] = 9
     else:
         if solvednums[5][0] == 1:
@@ -11705,31 +11704,31 @@ def solve():
         e62do = False
         sleep(1)
     elif e62do == True and c62['1'] == True and c62['2'] == False and c62['3'] == False and c62['4'] == False and c62['5'] == False and c62['6'] == False and c62['7'] == False and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 1
     elif e62do == True and c62['1'] == False and c62['2'] == True and c62['3'] == False and c62['4'] == False and c62['5'] == False and c62['6'] == False and c62['7'] == False and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 2
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == True and c62['4'] == False and c62['5'] == False and c62['6'] == False and c62['7'] == False and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 3
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == False and c62['4'] == True and c62['5'] == False and c62['6'] == False and c62['7'] == False and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 4
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == False and c62['4'] == False and c62['5'] == True and c62['6'] == False and c62['7'] == False and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 5
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == False and c62['4'] == False and c62['5'] == False and c62['6'] == True and c62['7'] == False and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 6
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == False and c62['4'] == False and c62['5'] == False and c62['6'] == False and c62['7'] == True and c62['8'] == False and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 7
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == False and c62['4'] == False and c62['5'] == False and c62['6'] == False and c62['7'] == False and c62['8'] == True and c62['9'] == False:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 8
     elif e62do == True and c62['1'] == False and c62['2'] == False and c62['3'] == False and c62['4'] == False and c62['5'] == False and c62['6'] == False and c62['7'] == False and c62['8'] == False and c62['9'] == True:
-        e62do == False
+        e62do = False
         solvednums[5][1] = 9
     else:
         if solvednums[5][1] == 1:
@@ -11926,31 +11925,31 @@ def solve():
         e63do = False
         sleep(1)
     elif e63do == True and c63['1'] == True and c63['2'] == False and c63['3'] == False and c63['4'] == False and c63['5'] == False and c63['6'] == False and c63['7'] == False and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 1
     elif e63do == True and c63['1'] == False and c63['2'] == True and c63['3'] == False and c63['4'] == False and c63['5'] == False and c63['6'] == False and c63['7'] == False and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 2
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == True and c63['4'] == False and c63['5'] == False and c63['6'] == False and c63['7'] == False and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 3
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == False and c63['4'] == True and c63['5'] == False and c63['6'] == False and c63['7'] == False and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 4
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == False and c63['4'] == False and c63['5'] == True and c63['6'] == False and c63['7'] == False and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 5
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == False and c63['4'] == False and c63['5'] == False and c63['6'] == True and c63['7'] == False and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 6
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == False and c63['4'] == False and c63['5'] == False and c63['6'] == False and c63['7'] == True and c63['8'] == False and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 7
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == False and c63['4'] == False and c63['5'] == False and c63['6'] == False and c63['7'] == False and c63['8'] == True and c63['9'] == False:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 8
     elif e63do == True and c63['1'] == False and c63['2'] == False and c63['3'] == False and c63['4'] == False and c63['5'] == False and c63['6'] == False and c63['7'] == False and c63['8'] == False and c63['9'] == True:
-        e63do == False
+        e63do = False
         solvednums[5][2] = 9
     else:
         if solvednums[5][2] == 1:
@@ -12147,31 +12146,31 @@ def solve():
         e64do = False
         sleep(1)
     elif e64do == True and c64['1'] == True and c64['2'] == False and c64['3'] == False and c64['4'] == False and c64['5'] == False and c64['6'] == False and c64['7'] == False and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 1
     elif e64do == True and c64['1'] == False and c64['2'] == True and c64['3'] == False and c64['4'] == False and c64['5'] == False and c64['6'] == False and c64['7'] == False and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 2
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == True and c64['4'] == False and c64['5'] == False and c64['6'] == False and c64['7'] == False and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 3
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == False and c64['4'] == True and c64['5'] == False and c64['6'] == False and c64['7'] == False and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 4
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == False and c64['4'] == False and c64['5'] == True and c64['6'] == False and c64['7'] == False and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 5
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == False and c64['4'] == False and c64['5'] == False and c64['6'] == True and c64['7'] == False and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 6
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == False and c64['4'] == False and c64['5'] == False and c64['6'] == False and c64['7'] == True and c64['8'] == False and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 7
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == False and c64['4'] == False and c64['5'] == False and c64['6'] == False and c64['7'] == False and c64['8'] == True and c64['9'] == False:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 8
     elif e64do == True and c64['1'] == False and c64['2'] == False and c64['3'] == False and c64['4'] == False and c64['5'] == False and c64['6'] == False and c64['7'] == False and c64['8'] == False and c64['9'] == True:
-        e64do == False
+        e64do = False
         solvednums[5][3] = 9
     else:
         if solvednums[5][3] == 1:
@@ -12368,31 +12367,31 @@ def solve():
         e65do = False
         sleep(1)
     elif e65do == True and c65['1'] == True and c65['2'] == False and c65['3'] == False and c65['4'] == False and c65['5'] == False and c65['6'] == False and c65['7'] == False and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 1
     elif e65do == True and c65['1'] == False and c65['2'] == True and c65['3'] == False and c65['4'] == False and c65['5'] == False and c65['6'] == False and c65['7'] == False and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 2
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == True and c65['4'] == False and c65['5'] == False and c65['6'] == False and c65['7'] == False and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 3
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == False and c65['4'] == True and c65['5'] == False and c65['6'] == False and c65['7'] == False and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 4
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == False and c65['4'] == False and c65['5'] == True and c65['6'] == False and c65['7'] == False and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 5
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == False and c65['4'] == False and c65['5'] == False and c65['6'] == True and c65['7'] == False and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 6
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == False and c65['4'] == False and c65['5'] == False and c65['6'] == False and c65['7'] == True and c65['8'] == False and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 7
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == False and c65['4'] == False and c65['5'] == False and c65['6'] == False and c65['7'] == False and c65['8'] == True and c65['9'] == False:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 8
     elif e65do == True and c65['1'] == False and c65['2'] == False and c65['3'] == False and c65['4'] == False and c65['5'] == False and c65['6'] == False and c65['7'] == False and c65['8'] == False and c65['9'] == True:
-        e65do == False
+        e65do = False
         solvednums[5][4] = 9
     else:
         if solvednums[5][4] == 1:
@@ -12589,31 +12588,31 @@ def solve():
         e66do = False
         sleep(1)
     elif e66do == True and c66['1'] == True and c66['2'] == False and c66['3'] == False and c66['4'] == False and c66['5'] == False and c66['6'] == False and c66['7'] == False and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 1
     elif e66do == True and c66['1'] == False and c66['2'] == True and c66['3'] == False and c66['4'] == False and c66['5'] == False and c66['6'] == False and c66['7'] == False and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 2
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == True and c66['4'] == False and c66['5'] == False and c66['6'] == False and c66['7'] == False and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 3
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == False and c66['4'] == True and c66['5'] == False and c66['6'] == False and c66['7'] == False and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][6] = 4
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == False and c66['4'] == False and c66['5'] == True and c66['6'] == False and c66['7'] == False and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 5
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == False and c66['4'] == False and c66['5'] == False and c66['6'] == True and c66['7'] == False and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 6
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == False and c66['4'] == False and c66['5'] == False and c66['6'] == False and c66['7'] == True and c66['8'] == False and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 7
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == False and c66['4'] == False and c66['5'] == False and c66['6'] == False and c66['7'] == False and c66['8'] == True and c66['9'] == False:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 8
     elif e66do == True and c66['1'] == False and c66['2'] == False and c66['3'] == False and c66['4'] == False and c66['5'] == False and c66['6'] == False and c66['7'] == False and c66['8'] == False and c66['9'] == True:
-        e66do == False
+        e66do = False
         solvednums[5][5] = 9     
     else:
         if solvednums[5][5] == 1:
@@ -12810,31 +12809,31 @@ def solve():
         e67do = False
         sleep(1)
     elif e67do == True and c67['1'] == True and c67['2'] == False and c67['3'] == False and c67['4'] == False and c67['5'] == False and c67['6'] == False and c67['7'] == False and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 1
     elif e67do == True and c67['1'] == False and c67['2'] == True and c67['3'] == False and c67['4'] == False and c67['5'] == False and c67['6'] == False and c67['7'] == False and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 2
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == True and c67['4'] == False and c67['5'] == False and c67['6'] == False and c67['7'] == False and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 3
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == False and c67['4'] == True and c67['5'] == False and c67['6'] == False and c67['7'] == False and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 4
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == False and c67['4'] == False and c67['5'] == True and c67['6'] == False and c67['7'] == False and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 5
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == False and c67['4'] == False and c67['5'] == False and c67['6'] == True and c67['7'] == False and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 6
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == False and c67['4'] == False and c67['5'] == False and c67['6'] == False and c67['7'] == True and c67['8'] == False and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 7
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == False and c67['4'] == False and c67['5'] == False and c67['6'] == False and c67['7'] == False and c67['8'] == True and c67['9'] == False:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 8
     elif e67do == True and c67['1'] == False and c67['2'] == False and c67['3'] == False and c67['4'] == False and c67['5'] == False and c67['6'] == False and c67['7'] == False and c67['8'] == False and c67['9'] == True:
-        e67do == False
+        e67do = False
         solvednums[5][6] = 9
     else:
         if solvednums[5][6] == 1:
@@ -13031,31 +13030,31 @@ def solve():
         e68do = False
         sleep(1)
     elif e68do == True and c68['1'] == True and c68['2'] == False and c68['3'] == False and c68['4'] == False and c68['5'] == False and c68['6'] == False and c68['7'] == False and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 1
     elif e68do == True and c68['1'] == False and c68['2'] == True and c68['3'] == False and c68['4'] == False and c68['5'] == False and c68['6'] == False and c68['7'] == False and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 2
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == True and c68['4'] == False and c68['5'] == False and c68['6'] == False and c68['7'] == False and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 3
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == False and c68['4'] == True and c68['5'] == False and c68['6'] == False and c68['7'] == False and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 4
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == False and c68['4'] == False and c68['5'] == True and c68['6'] == False and c68['7'] == False and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 5
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == False and c68['4'] == False and c68['5'] == False and c68['6'] == True and c68['7'] == False and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 6
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == False and c68['4'] == False and c68['5'] == False and c68['6'] == False and c68['7'] == True and c68['8'] == False and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 7
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == False and c68['4'] == False and c68['5'] == False and c68['6'] == False and c68['7'] == False and c68['8'] == True and c68['9'] == False:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 8
     elif e68do == True and c68['1'] == False and c68['2'] == False and c68['3'] == False and c68['4'] == False and c68['5'] == False and c68['6'] == False and c68['7'] == False and c68['8'] == False and c68['9'] == True:
-        e68do == False
+        e68do = False
         solvednums[5][7] = 9
     else:
         if solvednums[5][7] == 1:
@@ -13252,31 +13251,31 @@ def solve():
         e69do = False
         sleep(1)
     elif e69do == True and c69['1'] == True and c69['2'] == False and c69['3'] == False and c69['4'] == False and c69['5'] == False and c69['6'] == False and c69['7'] == False and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 1
     elif e69do == True and c69['1'] == False and c69['2'] == True and c69['3'] == False and c69['4'] == False and c69['5'] == False and c69['6'] == False and c69['7'] == False and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 2
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == True and c69['4'] == False and c69['5'] == False and c69['6'] == False and c69['7'] == False and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 3
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == False and c69['4'] == True and c69['5'] == False and c69['6'] == False and c69['7'] == False and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 4
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == False and c69['4'] == False and c69['5'] == True and c69['6'] == False and c69['7'] == False and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 5
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == False and c69['4'] == False and c69['5'] == False and c69['6'] == True and c69['7'] == False and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 6
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == False and c69['4'] == False and c69['5'] == False and c69['6'] == False and c69['7'] == True and c69['8'] == False and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 7
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == False and c69['4'] == False and c69['5'] == False and c69['6'] == False and c69['7'] == False and c69['8'] == True and c69['9'] == False:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 8
     elif e69do == True and c69['1'] == False and c69['2'] == False and c69['3'] == False and c69['4'] == False and c69['5'] == False and c69['6'] == False and c69['7'] == False and c69['8'] == False and c69['9'] == True:
-        e69do == False
+        e69do = False
         solvednums[5][8] = 9
     else:
         if solvednums[5][8] == 1:
@@ -13472,31 +13471,31 @@ def solve():
         e71do = False
         sleep(1)
     elif e71do == True and c71['1'] == True and c71['2'] == False and c71['3'] == False and c71['4'] == False and c71['5'] == False and c71['6'] == False and c71['7'] == False and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 1
     elif e71do == True and c71['1'] == False and c71['2'] == True and c71['3'] == False and c71['4'] == False and c71['5'] == False and c71['6'] == False and c71['7'] == False and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 2
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == True and c71['4'] == False and c71['5'] == False and c71['6'] == False and c71['7'] == False and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 3
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == False and c71['4'] == True and c71['5'] == False and c71['6'] == False and c71['7'] == False and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 4
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == False and c71['4'] == False and c71['5'] == True and c71['6'] == False and c71['7'] == False and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 5
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == False and c71['4'] == False and c71['5'] == False and c71['6'] == True and c71['7'] == False and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 6
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == False and c71['4'] == False and c71['5'] == False and c71['6'] == False and c71['7'] == True and c71['8'] == False and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 7
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == False and c71['4'] == False and c71['5'] == False and c71['6'] == False and c71['7'] == False and c71['8'] == True and c71['9'] == False:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 8
     elif e71do == True and c71['1'] == False and c71['2'] == False and c71['3'] == False and c71['4'] == False and c71['5'] == False and c71['6'] == False and c71['7'] == False and c71['8'] == False and c71['9'] == True:
-        e71do == False
+        e71do = False
         solvednums[6][0] = 9
     else:
         if solvednums[6][0] == 1:
@@ -13713,31 +13712,31 @@ def solve():
         e72do = False
         sleep(1)
     elif e72do == True and c72['1'] == True and c72['2'] == False and c72['3'] == False and c72['4'] == False and c72['5'] == False and c72['6'] == False and c72['7'] == False and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 1
     elif e72do == True and c72['1'] == False and c72['2'] == True and c72['3'] == False and c72['4'] == False and c72['5'] == False and c72['6'] == False and c72['7'] == False and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 2
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == True and c72['4'] == False and c72['5'] == False and c72['6'] == False and c72['7'] == False and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 3
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == False and c72['4'] == True and c72['5'] == False and c72['6'] == False and c72['7'] == False and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 4
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == False and c72['4'] == False and c72['5'] == True and c72['6'] == False and c72['7'] == False and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 5
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == False and c72['4'] == False and c72['5'] == False and c72['6'] == True and c72['7'] == False and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 6
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == False and c72['4'] == False and c72['5'] == False and c72['6'] == False and c72['7'] == True and c72['8'] == False and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 7
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == False and c72['4'] == False and c72['5'] == False and c72['6'] == False and c72['7'] == False and c72['8'] == True and c72['9'] == False:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 8
     elif e72do == True and c72['1'] == False and c72['2'] == False and c72['3'] == False and c72['4'] == False and c72['5'] == False and c72['6'] == False and c72['7'] == False and c72['8'] == False and c72['9'] == True:
-        e72do == False
+        e72do = False
         solvednums[6][1] = 9
     else:
         if solvednums[6][1] == 1:
@@ -13934,31 +13933,31 @@ def solve():
         e73do = False
         sleep(1)
     elif e73do == True and c73['1'] == True and c73['2'] == False and c73['3'] == False and c73['4'] == False and c73['5'] == False and c73['6'] == False and c73['7'] == False and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 1
     elif e73do == True and c73['1'] == False and c73['2'] == True and c73['3'] == False and c73['4'] == False and c73['5'] == False and c73['6'] == False and c73['7'] == False and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 2
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == True and c73['4'] == False and c73['5'] == False and c73['6'] == False and c73['7'] == False and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 3
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == False and c73['4'] == True and c73['5'] == False and c73['6'] == False and c73['7'] == False and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 4
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == False and c73['4'] == False and c73['5'] == True and c73['6'] == False and c73['7'] == False and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 5
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == False and c73['4'] == False and c73['5'] == False and c73['6'] == True and c73['7'] == False and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 6
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == False and c73['4'] == False and c73['5'] == False and c73['6'] == False and c73['7'] == True and c73['8'] == False and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 7
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == False and c73['4'] == False and c73['5'] == False and c73['6'] == False and c73['7'] == False and c73['8'] == True and c73['9'] == False:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 8
     elif e73do == True and c73['1'] == False and c73['2'] == False and c73['3'] == False and c73['4'] == False and c73['5'] == False and c73['6'] == False and c73['7'] == False and c73['8'] == False and c73['9'] == True:
-        e73do == False
+        e73do = False
         solvednums[6][2] = 9
     else:
         if solvednums[6][2] == 1:
@@ -14155,31 +14154,31 @@ def solve():
         e74do = False
         sleep(1)
     elif e74do == True and c74['1'] == True and c74['2'] == False and c74['3'] == False and c74['4'] == False and c74['5'] == False and c74['6'] == False and c74['7'] == False and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 1
     elif e74do == True and c74['1'] == False and c74['2'] == True and c74['3'] == False and c74['4'] == False and c74['5'] == False and c74['6'] == False and c74['7'] == False and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 2
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == True and c74['4'] == False and c74['5'] == False and c74['6'] == False and c74['7'] == False and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 3
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == False and c74['4'] == True and c74['5'] == False and c74['6'] == False and c74['7'] == False and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 4
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == False and c74['4'] == False and c74['5'] == True and c74['6'] == False and c74['7'] == False and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 5
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == False and c74['4'] == False and c74['5'] == False and c74['6'] == True and c74['7'] == False and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 6
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == False and c74['4'] == False and c74['5'] == False and c74['6'] == False and c74['7'] == True and c74['8'] == False and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 7
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == False and c74['4'] == False and c74['5'] == False and c74['6'] == False and c74['7'] == False and c74['8'] == True and c74['9'] == False:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 8
     elif e74do == True and c74['1'] == False and c74['2'] == False and c74['3'] == False and c74['4'] == False and c74['5'] == False and c74['6'] == False and c74['7'] == False and c74['8'] == False and c74['9'] == True:
-        e74do == False
+        e74do = False
         solvednums[6][3] = 9
     else:
         if solvednums[6][3] == 1:
@@ -14376,31 +14375,31 @@ def solve():
         e75do = False
         sleep(1)
     elif e75do == True and c75['1'] == True and c75['2'] == False and c75['3'] == False and c75['4'] == False and c75['5'] == False and c75['6'] == False and c75['7'] == False and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 1
     elif e75do == True and c75['1'] == False and c75['2'] == True and c75['3'] == False and c75['4'] == False and c75['5'] == False and c75['6'] == False and c75['7'] == False and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 2
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == True and c75['4'] == False and c75['5'] == False and c75['6'] == False and c75['7'] == False and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 3
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == False and c75['4'] == True and c75['5'] == False and c75['6'] == False and c75['7'] == False and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 4
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == False and c75['4'] == False and c75['5'] == True and c75['6'] == False and c75['7'] == False and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 5
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == False and c75['4'] == False and c75['5'] == False and c75['6'] == True and c75['7'] == False and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 6
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == False and c75['4'] == False and c75['5'] == False and c75['6'] == False and c75['7'] == True and c75['8'] == False and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 7
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == False and c75['4'] == False and c75['5'] == False and c75['6'] == False and c75['7'] == False and c75['8'] == True and c75['9'] == False:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 8
     elif e75do == True and c75['1'] == False and c75['2'] == False and c75['3'] == False and c75['4'] == False and c75['5'] == False and c75['6'] == False and c75['7'] == False and c75['8'] == False and c75['9'] == True:
-        e75do == False
+        e75do = False
         solvednums[6][4] = 9
     else:
         if solvednums[6][4] == 1:
@@ -14597,31 +14596,31 @@ def solve():
         e76do = False
         sleep(1)
     elif e76do == True and c76['1'] == True and c76['2'] == False and c76['3'] == False and c76['4'] == False and c76['5'] == False and c76['6'] == False and c76['7'] == False and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 1
     elif e76do == True and c76['1'] == False and c76['2'] == True and c76['3'] == False and c76['4'] == False and c76['5'] == False and c76['6'] == False and c76['7'] == False and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 2
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == True and c76['4'] == False and c76['5'] == False and c76['6'] == False and c76['7'] == False and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 3
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == False and c76['4'] == True and c76['5'] == False and c76['6'] == False and c76['7'] == False and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][6] = 4
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == False and c76['4'] == False and c76['5'] == True and c76['6'] == False and c76['7'] == False and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 5
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == False and c76['4'] == False and c76['5'] == False and c76['6'] == True and c76['7'] == False and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 6
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == False and c76['4'] == False and c76['5'] == False and c76['6'] == False and c76['7'] == True and c76['8'] == False and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 7
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == False and c76['4'] == False and c76['5'] == False and c76['6'] == False and c76['7'] == False and c76['8'] == True and c76['9'] == False:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 8
     elif e76do == True and c76['1'] == False and c76['2'] == False and c76['3'] == False and c76['4'] == False and c76['5'] == False and c76['6'] == False and c76['7'] == False and c76['8'] == False and c76['9'] == True:
-        e76do == False
+        e76do = False
         solvednums[6][5] = 9     
     else:
         if solvednums[6][5] == 1:
@@ -14818,31 +14817,31 @@ def solve():
         e77do = False
         sleep(1)
     elif e77do == True and c77['1'] == True and c77['2'] == False and c77['3'] == False and c77['4'] == False and c77['5'] == False and c77['6'] == False and c77['7'] == False and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 1
     elif e77do == True and c77['1'] == False and c77['2'] == True and c77['3'] == False and c77['4'] == False and c77['5'] == False and c77['6'] == False and c77['7'] == False and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 2
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == True and c77['4'] == False and c77['5'] == False and c77['6'] == False and c77['7'] == False and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 3
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == False and c77['4'] == True and c77['5'] == False and c77['6'] == False and c77['7'] == False and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 4
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == False and c77['4'] == False and c77['5'] == True and c77['6'] == False and c77['7'] == False and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 5
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == False and c77['4'] == False and c77['5'] == False and c77['6'] == True and c77['7'] == False and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 6
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == False and c77['4'] == False and c77['5'] == False and c77['6'] == False and c77['7'] == True and c77['8'] == False and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 7
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == False and c77['4'] == False and c77['5'] == False and c77['6'] == False and c77['7'] == False and c77['8'] == True and c77['9'] == False:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 8
     elif e77do == True and c77['1'] == False and c77['2'] == False and c77['3'] == False and c77['4'] == False and c77['5'] == False and c77['6'] == False and c77['7'] == False and c77['8'] == False and c77['9'] == True:
-        e77do == False
+        e77do = False
         solvednums[6][6] = 9
     else:
         if solvednums[6][6] == 1:
@@ -15039,31 +15038,31 @@ def solve():
         e78do = False
         sleep(1)
     elif e78do == True and c78['1'] == True and c78['2'] == False and c78['3'] == False and c78['4'] == False and c78['5'] == False and c78['6'] == False and c78['7'] == False and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 1
     elif e78do == True and c78['1'] == False and c78['2'] == True and c78['3'] == False and c78['4'] == False and c78['5'] == False and c78['6'] == False and c78['7'] == False and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 2
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == True and c78['4'] == False and c78['5'] == False and c78['6'] == False and c78['7'] == False and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 3
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == False and c78['4'] == True and c78['5'] == False and c78['6'] == False and c78['7'] == False and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 4
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == False and c78['4'] == False and c78['5'] == True and c78['6'] == False and c78['7'] == False and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 5
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == False and c78['4'] == False and c78['5'] == False and c78['6'] == True and c78['7'] == False and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 6
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == False and c78['4'] == False and c78['5'] == False and c78['6'] == False and c78['7'] == True and c78['8'] == False and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 7
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == False and c78['4'] == False and c78['5'] == False and c78['6'] == False and c78['7'] == False and c78['8'] == True and c78['9'] == False:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 8
     elif e78do == True and c78['1'] == False and c78['2'] == False and c78['3'] == False and c78['4'] == False and c78['5'] == False and c78['6'] == False and c78['7'] == False and c78['8'] == False and c78['9'] == True:
-        e78do == False
+        e78do = False
         solvednums[6][7] = 9
     else:
         if solvednums[6][7] == 1:
@@ -15260,31 +15259,31 @@ def solve():
         e79do = False
         sleep(1)
     elif e79do == True and c79['1'] == True and c79['2'] == False and c79['3'] == False and c79['4'] == False and c79['5'] == False and c79['6'] == False and c79['7'] == False and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 1
     elif e79do == True and c79['1'] == False and c79['2'] == True and c79['3'] == False and c79['4'] == False and c79['5'] == False and c79['6'] == False and c79['7'] == False and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 2
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == True and c79['4'] == False and c79['5'] == False and c79['6'] == False and c79['7'] == False and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 3
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == False and c79['4'] == True and c79['5'] == False and c79['6'] == False and c79['7'] == False and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 4
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == False and c79['4'] == False and c79['5'] == True and c79['6'] == False and c79['7'] == False and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 5
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == False and c79['4'] == False and c79['5'] == False and c79['6'] == True and c79['7'] == False and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 6
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == False and c79['4'] == False and c79['5'] == False and c79['6'] == False and c79['7'] == True and c79['8'] == False and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 7
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == False and c79['4'] == False and c79['5'] == False and c79['6'] == False and c79['7'] == False and c79['8'] == True and c79['9'] == False:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 8
     elif e79do == True and c79['1'] == False and c79['2'] == False and c79['3'] == False and c79['4'] == False and c79['5'] == False and c79['6'] == False and c79['7'] == False and c79['8'] == False and c79['9'] == True:
-        e79do == False
+        e79do = False
         solvednums[6][8] = 9
     else:
         if solvednums[6][8] == 1:
@@ -15459,31 +15458,31 @@ def solve():
         e81do = False
         sleep(1)
     elif e81do == True and c81['1'] == True and c81['2'] == False and c81['3'] == False and c81['4'] == False and c81['5'] == False and c81['6'] == False and c81['7'] == False and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 1
     elif e81do == True and c81['1'] == False and c81['2'] == True and c81['3'] == False and c81['4'] == False and c81['5'] == False and c81['6'] == False and c81['7'] == False and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 2
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == True and c81['4'] == False and c81['5'] == False and c81['6'] == False and c81['7'] == False and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 3
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == False and c81['4'] == True and c81['5'] == False and c81['6'] == False and c81['7'] == False and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 4
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == False and c81['4'] == False and c81['5'] == True and c81['6'] == False and c81['7'] == False and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 5
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == False and c81['4'] == False and c81['5'] == False and c81['6'] == True and c81['7'] == False and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 6
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == False and c81['4'] == False and c81['5'] == False and c81['6'] == False and c81['7'] == True and c81['8'] == False and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 7
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == False and c81['4'] == False and c81['5'] == False and c81['6'] == False and c81['7'] == False and c81['8'] == True and c81['9'] == False:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 8
     elif e81do == True and c81['1'] == False and c81['2'] == False and c81['3'] == False and c81['4'] == False and c81['5'] == False and c81['6'] == False and c81['7'] == False and c81['8'] == False and c81['9'] == True:
-        e81do == False
+        e81do = False
         solvednums[7][0] = 9
     else:
         if solvednums[7][0] == 1:
@@ -15700,31 +15699,31 @@ def solve():
         e82do = False
         sleep(1)
     elif e82do == True and c82['1'] == True and c82['2'] == False and c82['3'] == False and c82['4'] == False and c82['5'] == False and c82['6'] == False and c82['7'] == False and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 1
     elif e82do == True and c82['1'] == False and c82['2'] == True and c82['3'] == False and c82['4'] == False and c82['5'] == False and c82['6'] == False and c82['7'] == False and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 2
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == True and c82['4'] == False and c82['5'] == False and c82['6'] == False and c82['7'] == False and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 3
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == False and c82['4'] == True and c82['5'] == False and c82['6'] == False and c82['7'] == False and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 4
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == False and c82['4'] == False and c82['5'] == True and c82['6'] == False and c82['7'] == False and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 5
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == False and c82['4'] == False and c82['5'] == False and c82['6'] == True and c82['7'] == False and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 6
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == False and c82['4'] == False and c82['5'] == False and c82['6'] == False and c82['7'] == True and c82['8'] == False and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 7
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == False and c82['4'] == False and c82['5'] == False and c82['6'] == False and c82['7'] == False and c82['8'] == True and c82['9'] == False:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 8
     elif e82do == True and c82['1'] == False and c82['2'] == False and c82['3'] == False and c82['4'] == False and c82['5'] == False and c82['6'] == False and c82['7'] == False and c82['8'] == False and c82['9'] == True:
-        e82do == False
+        e82do = False
         solvednums[7][1] = 9
     else:
         if solvednums[7][1] == 1:
@@ -15921,31 +15920,31 @@ def solve():
         e83do = False
         sleep(1)
     elif e83do == True and c83['1'] == True and c83['2'] == False and c83['3'] == False and c83['4'] == False and c83['5'] == False and c83['6'] == False and c83['7'] == False and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 1
     elif e83do == True and c83['1'] == False and c83['2'] == True and c83['3'] == False and c83['4'] == False and c83['5'] == False and c83['6'] == False and c83['7'] == False and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 2
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == True and c83['4'] == False and c83['5'] == False and c83['6'] == False and c83['7'] == False and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 3
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == False and c83['4'] == True and c83['5'] == False and c83['6'] == False and c83['7'] == False and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 4
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == False and c83['4'] == False and c83['5'] == True and c83['6'] == False and c83['7'] == False and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 5
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == False and c83['4'] == False and c83['5'] == False and c83['6'] == True and c83['7'] == False and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 6
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == False and c83['4'] == False and c83['5'] == False and c83['6'] == False and c83['7'] == True and c83['8'] == False and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 7
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == False and c83['4'] == False and c83['5'] == False and c83['6'] == False and c83['7'] == False and c83['8'] == True and c83['9'] == False:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 8
     elif e83do == True and c83['1'] == False and c83['2'] == False and c83['3'] == False and c83['4'] == False and c83['5'] == False and c83['6'] == False and c83['7'] == False and c83['8'] == False and c83['9'] == True:
-        e83do == False
+        e83do = False
         solvednums[7][2] = 9
     else:
         if solvednums[7][2] == 1:
@@ -16142,31 +16141,31 @@ def solve():
         e84do = False
         sleep(1)
     elif e84do == True and c84['1'] == True and c84['2'] == False and c84['3'] == False and c84['4'] == False and c84['5'] == False and c84['6'] == False and c84['7'] == False and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 1
     elif e84do == True and c84['1'] == False and c84['2'] == True and c84['3'] == False and c84['4'] == False and c84['5'] == False and c84['6'] == False and c84['7'] == False and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 2
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == True and c84['4'] == False and c84['5'] == False and c84['6'] == False and c84['7'] == False and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 3
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == False and c84['4'] == True and c84['5'] == False and c84['6'] == False and c84['7'] == False and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 4
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == False and c84['4'] == False and c84['5'] == True and c84['6'] == False and c84['7'] == False and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 5
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == False and c84['4'] == False and c84['5'] == False and c84['6'] == True and c84['7'] == False and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 6
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == False and c84['4'] == False and c84['5'] == False and c84['6'] == False and c84['7'] == True and c84['8'] == False and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 7
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == False and c84['4'] == False and c84['5'] == False and c84['6'] == False and c84['7'] == False and c84['8'] == True and c84['9'] == False:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 8
     elif e84do == True and c84['1'] == False and c84['2'] == False and c84['3'] == False and c84['4'] == False and c84['5'] == False and c84['6'] == False and c84['7'] == False and c84['8'] == False and c84['9'] == True:
-        e84do == False
+        e84do = False
         solvednums[7][3] = 9
     else:
         if solvednums[7][3] == 1:
@@ -16363,31 +16362,31 @@ def solve():
         e85do = False
         sleep(1)
     elif e85do == True and c85['1'] == True and c85['2'] == False and c85['3'] == False and c85['4'] == False and c85['5'] == False and c85['6'] == False and c85['7'] == False and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 1
     elif e85do == True and c85['1'] == False and c85['2'] == True and c85['3'] == False and c85['4'] == False and c85['5'] == False and c85['6'] == False and c85['7'] == False and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 2
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == True and c85['4'] == False and c85['5'] == False and c85['6'] == False and c85['7'] == False and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 3
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == False and c85['4'] == True and c85['5'] == False and c85['6'] == False and c85['7'] == False and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 4
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == False and c85['4'] == False and c85['5'] == True and c85['6'] == False and c85['7'] == False and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 5
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == False and c85['4'] == False and c85['5'] == False and c85['6'] == True and c85['7'] == False and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 6
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == False and c85['4'] == False and c85['5'] == False and c85['6'] == False and c85['7'] == True and c85['8'] == False and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 7
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == False and c85['4'] == False and c85['5'] == False and c85['6'] == False and c85['7'] == False and c85['8'] == True and c85['9'] == False:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 8
     elif e85do == True and c85['1'] == False and c85['2'] == False and c85['3'] == False and c85['4'] == False and c85['5'] == False and c85['6'] == False and c85['7'] == False and c85['8'] == False and c85['9'] == True:
-        e85do == False
+        e85do = False
         solvednums[7][4] = 9
     else:
         if solvednums[7][4] == 1:
@@ -16584,31 +16583,31 @@ def solve():
         e86do = False
         sleep(1)
     elif e86do == True and c86['1'] == True and c86['2'] == False and c86['3'] == False and c86['4'] == False and c86['5'] == False and c86['6'] == False and c86['7'] == False and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 1
     elif e86do == True and c86['1'] == False and c86['2'] == True and c86['3'] == False and c86['4'] == False and c86['5'] == False and c86['6'] == False and c86['7'] == False and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 2
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == True and c86['4'] == False and c86['5'] == False and c86['6'] == False and c86['7'] == False and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 3
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == False and c86['4'] == True and c86['5'] == False and c86['6'] == False and c86['7'] == False and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][6] = 4
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == False and c86['4'] == False and c86['5'] == True and c86['6'] == False and c86['7'] == False and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 5
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == False and c86['4'] == False and c86['5'] == False and c86['6'] == True and c86['7'] == False and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 6
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == False and c86['4'] == False and c86['5'] == False and c86['6'] == False and c86['7'] == True and c86['8'] == False and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 7
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == False and c86['4'] == False and c86['5'] == False and c86['6'] == False and c86['7'] == False and c86['8'] == True and c86['9'] == False:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 8
     elif e86do == True and c86['1'] == False and c86['2'] == False and c86['3'] == False and c86['4'] == False and c86['5'] == False and c86['6'] == False and c86['7'] == False and c86['8'] == False and c86['9'] == True:
-        e86do == False
+        e86do = False
         solvednums[7][5] = 9     
     else:
         if solvednums[7][5] == 1:
@@ -16805,31 +16804,31 @@ def solve():
         e87do = False
         sleep(1)
     elif e87do == True and c87['1'] == True and c87['2'] == False and c87['3'] == False and c87['4'] == False and c87['5'] == False and c87['6'] == False and c87['7'] == False and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 1
     elif e87do == True and c87['1'] == False and c87['2'] == True and c87['3'] == False and c87['4'] == False and c87['5'] == False and c87['6'] == False and c87['7'] == False and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 2
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == True and c87['4'] == False and c87['5'] == False and c87['6'] == False and c87['7'] == False and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 3
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == False and c87['4'] == True and c87['5'] == False and c87['6'] == False and c87['7'] == False and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 4
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == False and c87['4'] == False and c87['5'] == True and c87['6'] == False and c87['7'] == False and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 5
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == False and c87['4'] == False and c87['5'] == False and c87['6'] == True and c87['7'] == False and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 6
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == False and c87['4'] == False and c87['5'] == False and c87['6'] == False and c87['7'] == True and c87['8'] == False and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 7
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == False and c87['4'] == False and c87['5'] == False and c87['6'] == False and c87['7'] == False and c87['8'] == True and c87['9'] == False:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 8
     elif e87do == True and c87['1'] == False and c87['2'] == False and c87['3'] == False and c87['4'] == False and c87['5'] == False and c87['6'] == False and c87['7'] == False and c87['8'] == False and c87['9'] == True:
-        e87do == False
+        e87do = False
         solvednums[7][6] = 9
     else:
         if solvednums[7][6] == 1:
@@ -17026,31 +17025,31 @@ def solve():
         e88do = False
         sleep(1)
     elif e88do == True and c88['1'] == True and c88['2'] == False and c88['3'] == False and c88['4'] == False and c88['5'] == False and c88['6'] == False and c88['7'] == False and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 1
     elif e88do == True and c88['1'] == False and c88['2'] == True and c88['3'] == False and c88['4'] == False and c88['5'] == False and c88['6'] == False and c88['7'] == False and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 2
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == True and c88['4'] == False and c88['5'] == False and c88['6'] == False and c88['7'] == False and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 3
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == False and c88['4'] == True and c88['5'] == False and c88['6'] == False and c88['7'] == False and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 4
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == False and c88['4'] == False and c88['5'] == True and c88['6'] == False and c88['7'] == False and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 5
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == False and c88['4'] == False and c88['5'] == False and c88['6'] == True and c88['7'] == False and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 6
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == False and c88['4'] == False and c88['5'] == False and c88['6'] == False and c88['7'] == True and c88['8'] == False and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 7
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == False and c88['4'] == False and c88['5'] == False and c88['6'] == False and c88['7'] == False and c88['8'] == True and c88['9'] == False:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 8
     elif e88do == True and c88['1'] == False and c88['2'] == False and c88['3'] == False and c88['4'] == False and c88['5'] == False and c88['6'] == False and c88['7'] == False and c88['8'] == False and c88['9'] == True:
-        e88do == False
+        e88do = False
         solvednums[7][7] = 9
     else:
         if solvednums[7][7] == 1:
@@ -17247,31 +17246,31 @@ def solve():
         e89do = False
         sleep(1)
     elif e89do == True and c89['1'] == True and c89['2'] == False and c89['3'] == False and c89['4'] == False and c89['5'] == False and c89['6'] == False and c89['7'] == False and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 1
     elif e89do == True and c89['1'] == False and c89['2'] == True and c89['3'] == False and c89['4'] == False and c89['5'] == False and c89['6'] == False and c89['7'] == False and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 2
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == True and c89['4'] == False and c89['5'] == False and c89['6'] == False and c89['7'] == False and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 3
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == False and c89['4'] == True and c89['5'] == False and c89['6'] == False and c89['7'] == False and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 4
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == False and c89['4'] == False and c89['5'] == True and c89['6'] == False and c89['7'] == False and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 5
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == False and c89['4'] == False and c89['5'] == False and c89['6'] == True and c89['7'] == False and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 6
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == False and c89['4'] == False and c89['5'] == False and c89['6'] == False and c89['7'] == True and c89['8'] == False and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 7
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == False and c89['4'] == False and c89['5'] == False and c89['6'] == False and c89['7'] == False and c89['8'] == True and c89['9'] == False:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 8
     elif e89do == True and c89['1'] == False and c89['2'] == False and c89['3'] == False and c89['4'] == False and c89['5'] == False and c89['6'] == False and c89['7'] == False and c89['8'] == False and c89['9'] == True:
-        e89do == False
+        e89do = False
         solvednums[7][8] = 9
     else:
         if solvednums[7][8] == 1:
@@ -17446,31 +17445,31 @@ def solve():
         e91do = False
         sleep(1)
     elif e91do == True and c91['1'] == True and c91['2'] == False and c91['3'] == False and c91['4'] == False and c91['5'] == False and c91['6'] == False and c91['7'] == False and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 1
     elif e91do == True and c91['1'] == False and c91['2'] == True and c91['3'] == False and c91['4'] == False and c91['5'] == False and c91['6'] == False and c91['7'] == False and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 2
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == True and c91['4'] == False and c91['5'] == False and c91['6'] == False and c91['7'] == False and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 3
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == False and c91['4'] == True and c91['5'] == False and c91['6'] == False and c91['7'] == False and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 4
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == False and c91['4'] == False and c91['5'] == True and c91['6'] == False and c91['7'] == False and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 5
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == False and c91['4'] == False and c91['5'] == False and c91['6'] == True and c91['7'] == False and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 6
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == False and c91['4'] == False and c91['5'] == False and c91['6'] == False and c91['7'] == True and c91['8'] == False and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 7
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == False and c91['4'] == False and c91['5'] == False and c91['6'] == False and c91['7'] == False and c91['8'] == True and c91['9'] == False:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 8
     elif e91do == True and c91['1'] == False and c91['2'] == False and c91['3'] == False and c91['4'] == False and c91['5'] == False and c91['6'] == False and c91['7'] == False and c91['8'] == False and c91['9'] == True:
-        e91do == False
+        e91do = False
         solvednums[8][0] = 9
     else:
         if solvednums[8][0] == 1:
@@ -17687,31 +17686,31 @@ def solve():
         e92do = False
         sleep(1)
     elif e92do == True and c92['1'] == True and c92['2'] == False and c92['3'] == False and c92['4'] == False and c92['5'] == False and c92['6'] == False and c92['7'] == False and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 1
     elif e92do == True and c92['1'] == False and c92['2'] == True and c92['3'] == False and c92['4'] == False and c92['5'] == False and c92['6'] == False and c92['7'] == False and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 2
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == True and c92['4'] == False and c92['5'] == False and c92['6'] == False and c92['7'] == False and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 3
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == False and c92['4'] == True and c92['5'] == False and c92['6'] == False and c92['7'] == False and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 4
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == False and c92['4'] == False and c92['5'] == True and c92['6'] == False and c92['7'] == False and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 5
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == False and c92['4'] == False and c92['5'] == False and c92['6'] == True and c92['7'] == False and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 6
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == False and c92['4'] == False and c92['5'] == False and c92['6'] == False and c92['7'] == True and c92['8'] == False and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 7
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == False and c92['4'] == False and c92['5'] == False and c92['6'] == False and c92['7'] == False and c92['8'] == True and c92['9'] == False:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 8
     elif e92do == True and c92['1'] == False and c92['2'] == False and c92['3'] == False and c92['4'] == False and c92['5'] == False and c92['6'] == False and c92['7'] == False and c92['8'] == False and c92['9'] == True:
-        e92do == False
+        e92do = False
         solvednums[8][1] = 9
     else:
         if solvednums[8][1] == 1:
@@ -17908,31 +17907,31 @@ def solve():
         e93do = False
         sleep(1)
     elif e93do == True and c93['1'] == True and c93['2'] == False and c93['3'] == False and c93['4'] == False and c93['5'] == False and c93['6'] == False and c93['7'] == False and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 1
     elif e93do == True and c93['1'] == False and c93['2'] == True and c93['3'] == False and c93['4'] == False and c93['5'] == False and c93['6'] == False and c93['7'] == False and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 2
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == True and c93['4'] == False and c93['5'] == False and c93['6'] == False and c93['7'] == False and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 3
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == False and c93['4'] == True and c93['5'] == False and c93['6'] == False and c93['7'] == False and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 4
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == False and c93['4'] == False and c93['5'] == True and c93['6'] == False and c93['7'] == False and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 5
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == False and c93['4'] == False and c93['5'] == False and c93['6'] == True and c93['7'] == False and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 6
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == False and c93['4'] == False and c93['5'] == False and c93['6'] == False and c93['7'] == True and c93['8'] == False and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 7
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == False and c93['4'] == False and c93['5'] == False and c93['6'] == False and c93['7'] == False and c93['8'] == True and c93['9'] == False:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 8
     elif e93do == True and c93['1'] == False and c93['2'] == False and c93['3'] == False and c93['4'] == False and c93['5'] == False and c93['6'] == False and c93['7'] == False and c93['8'] == False and c93['9'] == True:
-        e93do == False
+        e93do = False
         solvednums[8][2] = 9
     else:
         if solvednums[8][2] == 1:
@@ -18129,31 +18128,31 @@ def solve():
         e94do = False
         sleep(1)
     elif e94do == True and c94['1'] == True and c94['2'] == False and c94['3'] == False and c94['4'] == False and c94['5'] == False and c94['6'] == False and c94['7'] == False and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 1
     elif e94do == True and c94['1'] == False and c94['2'] == True and c94['3'] == False and c94['4'] == False and c94['5'] == False and c94['6'] == False and c94['7'] == False and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 2
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == True and c94['4'] == False and c94['5'] == False and c94['6'] == False and c94['7'] == False and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 3
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == False and c94['4'] == True and c94['5'] == False and c94['6'] == False and c94['7'] == False and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 4
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == False and c94['4'] == False and c94['5'] == True and c94['6'] == False and c94['7'] == False and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 5
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == False and c94['4'] == False and c94['5'] == False and c94['6'] == True and c94['7'] == False and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 6
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == False and c94['4'] == False and c94['5'] == False and c94['6'] == False and c94['7'] == True and c94['8'] == False and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 7
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == False and c94['4'] == False and c94['5'] == False and c94['6'] == False and c94['7'] == False and c94['8'] == True and c94['9'] == False:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 8
     elif e94do == True and c94['1'] == False and c94['2'] == False and c94['3'] == False and c94['4'] == False and c94['5'] == False and c94['6'] == False and c94['7'] == False and c94['8'] == False and c94['9'] == True:
-        e94do == False
+        e94do = False
         solvednums[8][3] = 9
     else:
         if solvednums[8][3] == 1:
@@ -18350,31 +18349,31 @@ def solve():
         e95do = False
         sleep(1)
     elif e95do == True and c95['1'] == True and c95['2'] == False and c95['3'] == False and c95['4'] == False and c95['5'] == False and c95['6'] == False and c95['7'] == False and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 1
     elif e95do == True and c95['1'] == False and c95['2'] == True and c95['3'] == False and c95['4'] == False and c95['5'] == False and c95['6'] == False and c95['7'] == False and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 2
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == True and c95['4'] == False and c95['5'] == False and c95['6'] == False and c95['7'] == False and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 3
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == False and c95['4'] == True and c95['5'] == False and c95['6'] == False and c95['7'] == False and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 4
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == False and c95['4'] == False and c95['5'] == True and c95['6'] == False and c95['7'] == False and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 5
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == False and c95['4'] == False and c95['5'] == False and c95['6'] == True and c95['7'] == False and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 6
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == False and c95['4'] == False and c95['5'] == False and c95['6'] == False and c95['7'] == True and c95['8'] == False and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 7
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == False and c95['4'] == False and c95['5'] == False and c95['6'] == False and c95['7'] == False and c95['8'] == True and c95['9'] == False:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 8
     elif e95do == True and c95['1'] == False and c95['2'] == False and c95['3'] == False and c95['4'] == False and c95['5'] == False and c95['6'] == False and c95['7'] == False and c95['8'] == False and c95['9'] == True:
-        e95do == False
+        e95do = False
         solvednums[8][4] = 9
     else:
         if solvednums[8][4] == 1:
@@ -18571,31 +18570,31 @@ def solve():
         e96do = False
         sleep(1)
     elif e96do == True and c96['1'] == True and c96['2'] == False and c96['3'] == False and c96['4'] == False and c96['5'] == False and c96['6'] == False and c96['7'] == False and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 1
     elif e96do == True and c96['1'] == False and c96['2'] == True and c96['3'] == False and c96['4'] == False and c96['5'] == False and c96['6'] == False and c96['7'] == False and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 2
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == True and c96['4'] == False and c96['5'] == False and c96['6'] == False and c96['7'] == False and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 3
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == False and c96['4'] == True and c96['5'] == False and c96['6'] == False and c96['7'] == False and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][6] = 4
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == False and c96['4'] == False and c96['5'] == True and c96['6'] == False and c96['7'] == False and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 5
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == False and c96['4'] == False and c96['5'] == False and c96['6'] == True and c96['7'] == False and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 6
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == False and c96['4'] == False and c96['5'] == False and c96['6'] == False and c96['7'] == True and c96['8'] == False and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 7
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == False and c96['4'] == False and c96['5'] == False and c96['6'] == False and c96['7'] == False and c96['8'] == True and c96['9'] == False:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 8
     elif e96do == True and c96['1'] == False and c96['2'] == False and c96['3'] == False and c96['4'] == False and c96['5'] == False and c96['6'] == False and c96['7'] == False and c96['8'] == False and c96['9'] == True:
-        e96do == False
+        e96do = False
         solvednums[8][5] = 9     
     else:
         if solvednums[8][5] == 1:
@@ -18792,31 +18791,31 @@ def solve():
         e97do = False
         sleep(1)
     elif e97do == True and c97['1'] == True and c97['2'] == False and c97['3'] == False and c97['4'] == False and c97['5'] == False and c97['6'] == False and c97['7'] == False and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 1
     elif e97do == True and c97['1'] == False and c97['2'] == True and c97['3'] == False and c97['4'] == False and c97['5'] == False and c97['6'] == False and c97['7'] == False and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 2
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == True and c97['4'] == False and c97['5'] == False and c97['6'] == False and c97['7'] == False and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 3
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == False and c97['4'] == True and c97['5'] == False and c97['6'] == False and c97['7'] == False and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 4
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == False and c97['4'] == False and c97['5'] == True and c97['6'] == False and c97['7'] == False and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 5
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == False and c97['4'] == False and c97['5'] == False and c97['6'] == True and c97['7'] == False and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 6
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == False and c97['4'] == False and c97['5'] == False and c97['6'] == False and c97['7'] == True and c97['8'] == False and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 7
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == False and c97['4'] == False and c97['5'] == False and c97['6'] == False and c97['7'] == False and c97['8'] == True and c97['9'] == False:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 8
     elif e97do == True and c97['1'] == False and c97['2'] == False and c97['3'] == False and c97['4'] == False and c97['5'] == False and c97['6'] == False and c97['7'] == False and c97['8'] == False and c97['9'] == True:
-        e97do == False
+        e97do = False
         solvednums[8][6] = 9
     else:
         if solvednums[8][6] == 1:
@@ -19013,31 +19012,31 @@ def solve():
         e98do = False
         sleep(1)
     elif e98do == True and c98['1'] == True and c98['2'] == False and c98['3'] == False and c98['4'] == False and c98['5'] == False and c98['6'] == False and c98['7'] == False and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 1
     elif e98do == True and c98['1'] == False and c98['2'] == True and c98['3'] == False and c98['4'] == False and c98['5'] == False and c98['6'] == False and c98['7'] == False and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 2
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == True and c98['4'] == False and c98['5'] == False and c98['6'] == False and c98['7'] == False and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 3
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == False and c98['4'] == True and c98['5'] == False and c98['6'] == False and c98['7'] == False and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 4
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == False and c98['4'] == False and c98['5'] == True and c98['6'] == False and c98['7'] == False and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 5
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == False and c98['4'] == False and c98['5'] == False and c98['6'] == True and c98['7'] == False and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 6
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == False and c98['4'] == False and c98['5'] == False and c98['6'] == False and c98['7'] == True and c98['8'] == False and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 7
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == False and c98['4'] == False and c98['5'] == False and c98['6'] == False and c98['7'] == False and c98['8'] == True and c98['9'] == False:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 8
     elif e98do == True and c98['1'] == False and c98['2'] == False and c98['3'] == False and c98['4'] == False and c98['5'] == False and c98['6'] == False and c98['7'] == False and c98['8'] == False and c98['9'] == True:
-        e98do == False
+        e98do = False
         solvednums[8][7] = 9
     else:
         if solvednums[8][7] == 1:
@@ -19234,31 +19233,31 @@ def solve():
         e99do = False
         sleep(1)
     elif e99do == True and c99['1'] == True and c99['2'] == False and c99['3'] == False and c99['4'] == False and c99['5'] == False and c99['6'] == False and c99['7'] == False and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 1
     elif e99do == True and c99['1'] == False and c99['2'] == True and c99['3'] == False and c99['4'] == False and c99['5'] == False and c99['6'] == False and c99['7'] == False and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 2
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == True and c99['4'] == False and c99['5'] == False and c99['6'] == False and c99['7'] == False and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 3
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == False and c99['4'] == True and c99['5'] == False and c99['6'] == False and c99['7'] == False and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 4
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == False and c99['4'] == False and c99['5'] == True and c99['6'] == False and c99['7'] == False and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 5
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == False and c99['4'] == False and c99['5'] == False and c99['6'] == True and c99['7'] == False and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 6
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == False and c99['4'] == False and c99['5'] == False and c99['6'] == False and c99['7'] == True and c99['8'] == False and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 7
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == False and c99['4'] == False and c99['5'] == False and c99['6'] == False and c99['7'] == False and c99['8'] == True and c99['9'] == False:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 8
     elif e99do == True and c99['1'] == False and c99['2'] == False and c99['3'] == False and c99['4'] == False and c99['5'] == False and c99['6'] == False and c99['7'] == False and c99['8'] == False and c99['9'] == True:
-        e99do == False
+        e99do = False
         solvednums[8][8] = 9
     else:
         if solvednums[8][8] == 1:
