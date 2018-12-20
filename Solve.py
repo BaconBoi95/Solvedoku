@@ -1501,7 +1501,6 @@ def placenums():
     o98.configure(text=solvednums[8][7])
     o99.configure(text=solvednums[8][8])
     return
-
 def showlicence():
     msgbox.showinfo("TERMS (Shortened)",'''SolveDoku - Sudoku made easy
 Copyright (C) 2018  Matt Patterson
@@ -1521,7 +1520,7 @@ def askquit():
     if willquit == True:
         window.destroy()
     return
-
+randomvalue = 0
 def howtouse():
     msgbox.showinfo("How To Use SolveDoku", '''Type numbers you KNOW into boxes. Numbers you dont know should be substituted with 0''')
     return
@@ -1536,7 +1535,7 @@ filemenu = Menu(toolbar)
 helpmenu = Menu(toolbar)
 toolbar.add_cascade(label = "File", menu = filemenu)
 toolbar.add_cascade(label = "Help", menu = helpmenu)
-filemenu.add_command(label = "Reset (Not yet implemented but here it is anyways)",command = resetnums)
+#filemenu.add_command(label = "Reset (Not yet implemented but here it is anyways)",command = resetnums)
 filemenu.add_separator()
 filemenu.add_command(label = "Quit", command = askquit )
 helpmenu.add_command(label = "Help", command = howtouse)
