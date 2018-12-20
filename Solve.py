@@ -19592,6 +19592,7 @@ def solve():
             c49['9'] = False   
             c59['9'] = False
             c69['9'] = False
+        placenums()
     print(solvednums)
     return
 solveBtn.configure(command = solve)
