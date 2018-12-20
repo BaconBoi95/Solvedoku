@@ -18,8 +18,10 @@
 #or post an issue at https://github.com/End3rYT/Solvedoku/issues
 #from Sudoku import *
 from tkinter import *
+from tkinter import messagebox as msgbox
 from time import *
 window = Tk()
+window.title("Solvedoku")
 
 puzzlenums = [[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0]]
 
@@ -1499,6 +1501,48 @@ def placenums():
     o98.configure(text=solvednums[8][7])
     o99.configure(text=solvednums[8][8])
     return
+
+def showlicence():
+    msgbox.showinfo("TERMS (Shortened)",'''SolveDoku - Sudoku made easy
+Copyright (C) 2018  Matt Patterson
+
+This program is free software: you can redistribute it and or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+ 
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see https://www.gnu.org/licenses/.
+ 
+If you have questions please send an email to leeland230.fun@gmail.com or post an issue at https://github.com/End3rYT/Solvedoku/issues''')
+    
+    return
+
+def askquit():
+    willquit = msgbox.askyesno("Quit?","Are you sure you want to quit?")
+    if willquit == True:
+        window.destroy()
+    return
+
+def howtouse():
+    msgbox.showinfo("How To Use SolveDoku", '''Type numbers you KNOW into boxes. Numbers you dont know should be substituted with 0''')
+    return
+
+def resetnums():
+    raise NotImplementedError("Reset Is Not Yet Implemented")
+    return
+
+toolbar = Menu(window)
+window.config(menu = toolbar)
+filemenu = Menu(toolbar)
+helpmenu = Menu(toolbar)
+toolbar.add_cascade(label = "File", menu = filemenu)
+toolbar.add_cascade(label = "Help", menu = helpmenu)
+filemenu.add_command(label = "Reset (Not yet implemented but here it is anyways)",command = resetnums)
+filemenu.add_separator()
+filemenu.add_command(label = "Quit", command = askquit )
+helpmenu.add_command(label = "Help", command = howtouse)
+helpmenu.add_separator()
+helpmenu.add_command(label = "View Licence", command = showlicence)
+
 
 def solve():
     """Solve Dat Puzzle"""
